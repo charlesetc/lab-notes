@@ -18,6 +18,7 @@ def items
       <item>
         <title>#{esc title}</title>
         <description>#{esc description}</description>
+        <guid>#{esc title}</guid>
       </item>
 END
   end
