@@ -1,0 +1,36 @@
+* {
+    font-family: 'Iosevka', monospace;
+    font-size: 16px;
+}
+
+body {
+    padding: 10px 18px;
+    margin: 0px;
+}
+body {
+    max-width: 740px;
+}
+
+h1:first-child:before {
+    content: "# "
+}
+
+h2:before {
+    content: "## "
+}
+
+h1, h2, h3, h4 {
+    font-weight: medium;
+}
+
+a, a:visited {
+    color: #00a398;
+}
+
+h1, h2, h3, hr, p, ul, ol, pre, table, blockquote {
+    margin-bottom: 20px;
+}
+
+.end-star {
+    text-decoration: none;
+}
