@@ -18,7 +18,7 @@ def items
       <item>
         <title>#{esc title}</title>
         <description>#{esc description}</description>
-        <guid>#{esc title.split('').filter {|c| c =~ /[[:alnum:]]/}.join}</guid>
+        <guid isPermaLink="false">#{esc title.split('').filter {|c| c =~ /[[:alnum:]]/}.join}</guid>
       </item>
 END
   end
