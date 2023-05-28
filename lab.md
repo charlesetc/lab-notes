@@ -2,7 +2,7 @@
 
 # Charles' lab notes
 
-Welcome to my lab notes! This is a place for me to publish less polished thoughts and findings as they come up, research-related or otherwise. See [#motivation](#motivation) for more details.
+Welcome! This is a place for me to publish less polished thoughts and findings as they come up, research-related or otherwise. See [#motivation](#motivation) for more details.
 
 ---
 
