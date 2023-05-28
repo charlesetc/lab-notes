@@ -48,6 +48,10 @@ margin-bottom: 20px;
 .end-star {
 text-decoration: none;
 }
+hr {
+border: 0;
+border-bottom: 1.5px solid black;
+}
 </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -59,6 +63,14 @@ text-decoration: none;
 findings as they come up, research-related or otherwise. See <a href="#motivation">#motivation</a> for more details.</p>
 <hr />
 <h1 id="section">2022-05-28</h1>
+<p>I’ve added an RSS feed for these notes! I’m using pandoc to render a
+single markdown file into html, so had to figure out some way to get an
+rss feed as well. I went with a ruby script to parse the markdown and
+generate the xml on build. Turned out to be easier than I was
+expecting!</p>
+<p>See the feed here: [./rss.xml]</p>
+<hr />
+<h1 id="section-1">2022-05-27</h1>
 <h2 id="motivation">Motivation</h2>
 <p>Well I’ve been doing some long-form writing on my <a href="https://inclouds.space/blog">blog</a> and I’ve enjoyed it. But the
 format necessitates a lot of editing and care, at least in my mind. This

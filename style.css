@@ -34,3 +34,8 @@ h1, h2, h3, hr, p, ul, ol, pre, table, blockquote {
 .end-star {
     text-decoration: none;
 }
+
+hr {
+    border: 0;
+    border-bottom: 1.5px solid black;
+}

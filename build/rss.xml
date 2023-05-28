@@ -1,0 +1,31 @@
+<rss version="2.0">
+  <channel>
+    <title>Charles' Lab Notes</title>
+    <link>https://notes.inclouds.space/</link>
+    <description>Charles' quick-to-publish notes</description>
+    <language>en-us</language>
+      <item>
+        <title># 2022-05-28</title>
+        <description>I&#39;ve added an RSS feed for these notes! I&#39;m using pandoc to render a single markdown file into html, so had to figure out some way to get an rss feed as well. I went with a ruby script to parse the markdown and generate the xml on build. Turned out to be easier than I was expecting!
+
+See the feed here: [./rss.xml]</description>
+      </item>
+
+      <item>
+        <title># 2022-05-27</title>
+        <description>## Motivation
+
+Well I&#39;ve been doing some long-form writing on my [blog](https://inclouds.space/blog) and I&#39;ve enjoyed it. But the format necessitates a lot of editing and care, at least in my mind. This can be good for me—practicing writing long form pieces and the editing that goes with that—but it&#39;s not easy and often either prevents me from getting content out or seriously delays it. I&#39;d like to be able to share spure of the moment insights and snippets easily and quickly, in the hopes that I end up getting a larger amount of content out and in public. That too is good practice!
+
+So please bear with me; thoughts might not be as fully-formed, spelling might not be well-checked, grammer will be mid at best. This is an experiment! I&#39;m hoping the content itself can earn its keep despite these potential pitfalls.
+
+Also I like exclamation points and will probably use more of them here than my normal blog! No more censorship!
+
+
+## Forest
+
+As I add these lab notes to the nav of my main site, they are replacing a link to my &quot;forest&quot; — an attempt at a digital garden I made a few months ago. Recently it has become less of a garden and more of a small, static grove of trees. So instead of pointing to it so directly, I&#39;m moving the link here. Please enjoy! [forest.inclouds.space](https://forest.inclouds.space/)</description>
+      </item>
+
+  </channel>
+</rss>

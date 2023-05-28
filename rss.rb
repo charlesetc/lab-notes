@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'erb'
 
-def esc(arg) 
+def esc(arg)
   ERB::Util.html_escape(arg)
 end
 
@@ -38,4 +38,4 @@ END
 
 end
 
-puts rss
+File.write('build/rss.xml', rss())

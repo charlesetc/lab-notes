@@ -1,9 +1,10 @@
 watch:
 	@echo building...
-	@ls lab.md style.css makefile | entr make build
+	@ls rss.rb lab.md style.css makefile | entr make build
 
 build:
-	pandoc \
+	@ruby ./rss.rb
+	@pandoc \
 		--standalone \
 		--embed-resource \
 		--metadata title="Lab Notes" \
@@ -12,6 +13,7 @@ build:
 		--to html \
 		--css ./style.css \
 		lab.md -o build/index.html
+	@echo done
 
 make push:
 	git commit -am 'update: make push'

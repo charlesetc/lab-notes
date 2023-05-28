@@ -8,6 +8,14 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 # 2022-05-28
 
+I've added an RSS feed for these notes! I'm using pandoc to render a single markdown file into html, so had to figure out some way to get an rss feed as well. I went with a ruby script to parse the markdown and generate the xml on build. Turned out to be easier than I was expecting!
+
+See the feed here: [./rss.xml]
+
+---
+
+# 2022-05-27
+
 ## Motivation
 
 Well I've been doing some long-form writing on my [blog](https://inclouds.space/blog) and I've enjoyed it. But the format necessitates a lot of editing and care, at least in my mind. This can be good for me—practicing writing long form pieces and the editing that goes with that—but it's not easy and often either prevents me from getting content out or seriously delays it. I'd like to be able to share spure of the moment insights and snippets easily and quickly, in the hopes that I end up getting a larger amount of content out and in public. That too is good practice!
