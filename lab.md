@@ -10,7 +10,7 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 I've added an RSS feed for these notes! I'm using pandoc to render a single markdown file into html, so had to figure out some way to get an rss feed as well. I went with a ruby script to parse the markdown and generate the xml on build. Turned out to be easier than I was expecting!
 
-See the feed here: [./rss.xml]
+See the feed here: [./rss.xml](./rss.xml)
 
 ---
 
