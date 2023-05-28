@@ -18,7 +18,7 @@ def items
       <item>
         <title>#{esc title}</title>
         <description>#{esc description}</description>
-        <guid isPermaLink="false">#{esc title.split('').filter {|c| c =~ /[[:alnum:]]/}.join}</guid>
+        <guid isPermaLink="false">inclouds-space-#{esc title.split('').filter {|c| c =~ /[[:alnum:]]/}.join}</guid>
       </item>
 END
   end
