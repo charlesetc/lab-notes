@@ -27,10 +27,10 @@ end
 def rss
   <<END
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <atom:link href="https://notes.inclouds.space/rss.xml" rel="self" type="application/rss+xml" />
   <channel>
     <title>Charles' Lab Notes</title>
     <link>https://notes.inclouds.space/</link>
+    <atom:link href="https://notes.inclouds.space/rss.xml" rel="self" type="application/rss+xml" />
     <description>Charles' quick-to-publish notes</description>
     <language>en-us</language>
 #{items.join("\n")}
