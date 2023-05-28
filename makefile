@@ -13,4 +13,8 @@ build:
 		--css ./style.css \
 		lab.md -o build/index.html
 
+make push:
+	git commit -am 'update: make push'
+	git push
+
 .PHONY: build
