@@ -15,7 +15,7 @@ build:
 		lab.md -o build/index.html
 	@echo done
 
-make push:
+make push: build
 	git commit -am 'update: make push'
 	git push
 
