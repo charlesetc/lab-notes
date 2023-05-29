@@ -18,6 +18,52 @@ margin: 0 0.8em 0.2em -1.6em;
 vertical-align: middle;
 }
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+}
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { font-weight: bold; } 
+code span.an { font-style: italic; } 
+code span.cf { font-weight: bold; } 
+code span.co { font-style: italic; } 
+code span.cv { font-style: italic; } 
+code span.do { font-style: italic; } 
+code span.dt { text-decoration: underline; } 
+code span.er { font-weight: bold; } 
+code span.in { font-style: italic; } 
+code span.kw { font-weight: bold; } 
+code span.pp { font-weight: bold; } 
+code span.wa { font-style: italic; } 
 </style>
   <style type="text/css">* {
 font-family: 'Iosevka', courier, monospace;
@@ -62,11 +108,29 @@ text-decoration: none;
   <![endif]-->
 </head>
 <body>
-<h1 id="charles-lab-notes"><a href="#charles-lab-notes" class="header-anchor" aria-hidden="true">Charles’ lab notes</a></h1>
+<h1 id="charles-lab-notes"><a href="#charles-lab-notes" class="header-anchor">Charles’ lab notes</a></h1>
 <p>Welcome! This is a place for me to publish less polished thoughts and
 findings as they come up, research-related or otherwise. See <a href="#motivation">#motivation</a> for more details.</p>
 <hr />
-<h1 id="2022-05-28"><a href="#2022-05-28" class="header-anchor" aria-hidden="true">2022-05-28</a></h1>
+<h1 id="2022-05-29"><a href="#2022-05-29" class="header-anchor">2022-05-29</a></h1>
+<p>I added links on each header here! Had to use pandoc’s
+gfm_auto_identifiers extension and then used a <a href="https://pandoc.org/lua-filters.html">lua filter</a> to add the
+actual links to the header. This was an updated version of <a href="https://github.com/jgm/pandoc-website/blob/master/tools/anchor-links.lua">the
+filter</a> pandoc uses for its own documentation.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode lua"><code class="sourceCode lua"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> Header<span class="op">(</span><span class="va">h</span><span class="op">)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> <span class="va">h</span><span class="op">.</span><span class="va">identifier</span> <span class="op">~=</span> <span class="st">&#39;&#39;</span> <span class="cf">then</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">local</span> <span class="va">anchor_link</span> <span class="op">=</span> <span class="va">pandoc</span><span class="op">.</span>Link<span class="op">(</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>      <span class="va">h</span><span class="op">.</span><span class="va">content</span><span class="op">,</span>                        <span class="co">-- content</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>      <span class="st">&#39;#&#39;</span> <span class="op">..</span> <span class="va">h</span><span class="op">.</span><span class="va">identifier</span><span class="op">,</span>              <span class="co">-- href</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>      <span class="st">&#39;&#39;</span><span class="op">,</span>                               <span class="co">-- title</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>      <span class="op">{</span> <span class="va">class</span> <span class="op">=</span> <span class="st">&#39;header-anchor&#39;</span> <span class="op">}</span>       <span class="co">-- attributes</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">)</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="va">h</span><span class="op">.</span><span class="va">content</span> <span class="op">=</span> <span class="va">anchor_link</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">h</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="cf">end</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span></code></pre></div>
+<hr />
+<h1 id="2022-05-28"><a href="#2022-05-28" class="header-anchor">2022-05-28</a></h1>
 <p>I’ve added an RSS feed for these notes! I’m using pandoc to render a
 single markdown file into html, so had to figure out some way to get an
 rss feed as well. I went with a ruby script to parse the markdown and
@@ -74,8 +138,8 @@ generate the xml on build. Turned out to be easier than I was
 expecting!</p>
 <p>See the feed here: <a href="./rss.xml">./rss.xml</a></p>
 <hr />
-<h1 id="2022-05-27"><a href="#2022-05-27" class="header-anchor" aria-hidden="true">2022-05-27</a></h1>
-<h2 id="motivation"><a href="#motivation" class="header-anchor" aria-hidden="true">Motivation</a></h2>
+<h1 id="2022-05-27"><a href="#2022-05-27" class="header-anchor">2022-05-27</a></h1>
+<h2 id="motivation"><a href="#motivation" class="header-anchor">Motivation</a></h2>
 <p>Well I’ve been doing some long-form writing on my <a href="https://inclouds.space/blog">blog</a> and I’ve enjoyed it. But the
 format necessitates a lot of editing and care, at least in my mind. This
 can be good for me—practicing writing long form pieces and the editing
@@ -90,7 +154,7 @@ an experiment! I’m hoping the content itself can earn its keep despite
 these potential pitfalls.</p>
 <p>Also I like exclamation points and will probably use more of them
 here than my normal blog! No more censorship!</p>
-<h2 id="forest"><a href="#forest" class="header-anchor" aria-hidden="true">Forest</a></h2>
+<h2 id="forest"><a href="#forest" class="header-anchor">Forest</a></h2>
 <p>As I add these lab notes to the nav of my main site, they are
 replacing a link to my “forest” — an attempt at a digital garden I made
 a few months ago. Recently it has become less of a garden and more of a

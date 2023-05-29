@@ -6,6 +6,27 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 ---
 
+# 2022-05-29
+
+I added links on each header here! Had to use pandoc's gfm_auto_identifiers extension and then used a [lua filter](https://pandoc.org/lua-filters.html) to add the actual links to the header. This was an updated version of [the filter](https://github.com/jgm/pandoc-website/blob/master/tools/anchor-links.lua) pandoc uses for its own documentation.
+
+```lua
+function Header(h)
+  if h.identifier ~= '' then
+    local anchor_link = pandoc.Link(
+      h.content,                        -- content
+      '#' .. h.identifier,              -- href
+      '',                               -- title
+      { class = 'header-anchor' }       -- attributes
+    )
+    h.content = anchor_link
+    return h
+  end
+end
+```
+
+---
+
 # 2022-05-28
 
 I've added an RSS feed for these notes! I'm using pandoc to render a single markdown file into html, so had to figure out some way to get an rss feed as well. I went with a ruby script to parse the markdown and generate the xml on build. Turned out to be easier than I was expecting!

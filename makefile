@@ -11,6 +11,7 @@ build:
 		--variable title="" \
 		--from markdown+gfm_auto_identifiers \
 		--lua-filter ./tools/anchor-links.lua \
+		--highlight-style monochrome \
 		--to html \
 		--css ./style.css \
 		lab.md -o build/index.html

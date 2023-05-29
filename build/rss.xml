@@ -6,6 +6,27 @@
     <description>Charles' quick-to-publish notes</description>
     <language>en-us</language>
       <item>
+        <title># 2022-05-29</title>
+        <description>I added links on each header here! Had to use pandoc&#39;s gfm_auto_identifiers extension and then used a [lua filter](https://pandoc.org/lua-filters.html) to add the actual links to the header. This was an updated version of [the filter](https://github.com/jgm/pandoc-website/blob/master/tools/anchor-links.lua) pandoc uses for its own documentation.
+
+```lua
+function Header(h)
+  if h.identifier ~= &#39;&#39; then
+    local anchor_link = pandoc.Link(
+      h.content,                        -- content
+      &#39;#&#39; .. h.identifier,              -- href
+      &#39;&#39;,                               -- title
+      { class = &#39;header-anchor&#39; }       -- attributes
+    )
+    h.content = anchor_link
+    return h
+  end
+end
+```</description>
+        <guid isPermaLink="false">inclouds-space-20220529</guid>
+      </item>
+
+      <item>
         <title># 2022-05-28</title>
         <description>I&#39;ve added an RSS feed for these notes! I&#39;m using pandoc to render a single markdown file into html, so had to figure out some way to get an rss feed as well. I went with a ruby script to parse the markdown and generate the xml on build. Turned out to be easier than I was expecting!
 
