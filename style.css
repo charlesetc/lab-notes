@@ -39,3 +39,8 @@ hr {
     border: 0;
     border-bottom: 1.5px solid black;
 }
+
+a.header-anchor {
+  color: black;
+  text-decoration: none;
+}

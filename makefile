@@ -1,15 +1,16 @@
 watch:
 	@echo building...
-	@ls rss.rb lab.md style.css makefile | entr make build
+	@ls tools/* lab.md style.css makefile | entr make build
 
 build:
-	@ruby ./rss.rb
+	@ruby ./tools/rss.rb
 	@pandoc \
 		--standalone \
 		--embed-resource \
 		--metadata title="Lab Notes" \
 		--variable title="" \
-		--from markdown \
+		--from markdown+gfm_auto_identifiers \
+		--lua-filter ./tools/anchor-links.lua \
 		--to html \
 		--css ./style.css \
 		lab.md -o build/index.html
@@ -18,5 +19,8 @@ build:
 make push: build
 	git commit -am 'update: make push'
 	git push
+
+open:
+	open ./build/index.html
 
 .PHONY: build
