@@ -8,7 +8,7 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 # 2022-05-30
 
-I'm in the process of setting up a [folk.computer](https://folk.computer) installation. Today involved running to the hardware store to buy clamps, eyewear, power strip, flash drive, etc. Tonight or tomorrow I'll start drilling: have to widen the holes in a monitor arm's VESA mount to let through the 1/4" 20 screws that the projector and webcam use. I'm hoping that the end result will be pretty clean!
+I'm in the process of setting up a [folk.computer](https://folk.computer) installation! Today involved running to the hardware store to buy clamps, eyewear, power strip, flash drive, etc. Tonight or tomorrow I'll start drilling: have to widen the holes in a monitor arm's VESA mount to let through the 1/4" 20 screws that the projector and webcam use. I'm hoping that the end result will be pretty clean!
 
 Folk is a projector-camera "physical computing" interface and operating system developed by [Andrés](https://cwervo.com/) and [Omar](https://omar.website/). The idea is you position a camera and a projector above your desk and plug them into a computer with access to a printer. This setup lets you:
 
