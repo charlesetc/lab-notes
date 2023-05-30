@@ -2,7 +2,23 @@
 
 # Charles' lab notes
 
-Welcome! This is a place for me to publish less polished thoughts and findings as they come up, research-related or otherwise. See [#motivation](#motivation) for more details.
+Welcome! This is a place for me to publish less polished thoughts and findings as they come up, research-related or otherwise. See [#motivation](#motivation) for details.
+
+---
+
+# 2022-05-30
+
+I'm in the process of setting up a [folk.computer](https://folk.computer) installation. Today involved running to the hardware store to buy clamps, eyewear, power strip, flash drive, etc. Tonight or tomorrow I'll start drilling: have to widen the holes in a monitor arm's VESA mount to let through the 1/4" 20 screws that the projector and webcam use. I'm hoping that the end result will be pretty clean!
+
+Folk is a projector-camera "physical computing" interface and operating system developed by [Andrés](https://cwervo.com/) and [Omar](https://omar.website/). The idea is you position a camera and a projector above your desk and plug them into a computer with access to a printer. This setup lets you:
+
+- use computer vision to track April Tags (kind of like QR codes but faster to recognize) in real time.
+- project light onto and around the objects you are tracking, informed by information from the computer vision (position, rotation, skew of tags in space).
+- print out sheets of paper with these April Tags, giving you the ability to bring new augmented objects into the world with ease.
+
+I'm extremely excited about this. Last week I witnessed a musical performance where someone with no particular training manipulated 5 pieces of paper to create a musical experience. This is how we seamlessly empower non-technical humans with technology: extraodinarily easy, high-bandwith interfaces you can **play** with.
+
+Stay posted.
 
 ---
 

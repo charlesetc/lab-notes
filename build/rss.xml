@@ -6,6 +6,22 @@
     <description>Charles' quick-to-publish notes</description>
     <language>en-us</language>
       <item>
+        <title># 2022-05-30</title>
+        <description>I&#39;m in the process of setting up a [folk.computer](https://folk.computer) installation. Today involved running to the hardware store to buy clamps, eyewear, power strip, flash drive, etc. Tonight or tomorrow I&#39;ll start drilling: have to widen the holes in a monitor arm&#39;s VESA mount to let through the 1/4&quot; 20 screws that the projector and webcam use. I&#39;m hoping that the end result will be pretty clean!
+
+Folk is a projector-camera &quot;physical computing&quot; interface and operating system developed by [Andrés](https://cwervo.com/) and [Omar](https://omar.website/). The idea is you position a camera and a projector above your desk and plug them into a computer with access to a printer. This setup lets you:
+
+- use computer vision to track April Tags (kind of like QR codes but faster to recognize) in real time.
+- project light onto and around the objects you are tracking, informed by information from the computer vision (position, rotation, skew of tags in space).
+- print out sheets of paper with these April Tags, giving you the ability to bring new augmented objects into the world with ease.
+
+I&#39;m extremely excited about this. Last week I witnessed a musical performance where someone with no particular training manipulated 5 pieces of paper to create a musical experience. This is how we seamlessly empower non-technical humans with technology: extraodinarily easy, high-bandwith interfaces you can **play** with.
+
+Stay posted.</description>
+        <guid isPermaLink="false">inclouds-space-20220530</guid>
+      </item>
+
+      <item>
         <title># 2022-05-29</title>
         <description>I added links on each header here! Had to use pandoc&#39;s gfm_auto_identifiers extension and then used a [lua filter](https://pandoc.org/lua-filters.html) to add the actual links to the header. This was an updated version of [the filter](https://github.com/jgm/pandoc-website/blob/master/tools/anchor-links.lua) pandoc uses for its own documentation.
 
