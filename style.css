@@ -44,3 +44,8 @@ a.header-anchor {
   color: black;
   text-decoration: none;
 }
+
+img {
+    max-width: 100%;
+    max-height: 500px;
+}

@@ -4,6 +4,33 @@
 
 Welcome! This is a place for me to publish less polished thoughts and findings as they come up, research-related or otherwise. See [#motivation](#motivation) for details.
 
+
+---
+
+# 2022-05-31
+
+Well! An awesome day. It started out by installing ubuntu on a small desktop computer:
+
+![](./static/2023-05-31-01.jpeg)
+
+And then progressed to drilling holes into a vesa mount of a monitor arm:
+
+![](./static/2023-05-31-03.jpeg)
+
+Which let me position a webcam and projector in the air:
+
+![](./static/2023-05-31-04.jpeg)
+
+To finally project a blue square on my desk:
+
+![](./static/2023-05-31-02.jpeg)
+
+And what a blue square it is!
+
+There were too many issues to count along the way. The computer I got ended up not having a wifi card built in but it did come with a usb wifi adapter. I spent altogether too much time manually downloading the debian packages needed to compile this adapter's firmware only to find out that it wasn't compatible with the latest linux kernel version. So I'm getting a new wifi adapter shipped, but in the meantime I went to the store to buy an ethernet cable. This let me get started but wouldn't reach to the right desk, so I have ended up using phone's hotspot through a manual bluetooth connection. Which of course lead to more issues. My printer is configured to work on my home network which this desktop computer doesn't have access to (since it doesn't have a wifi card), so printing out four April tags involved alternating between my phone's hotspot to get a single print job queued and then my home network to actaully print it. A wild ride for sure!
+
+But it should all be worth it! We're seeing the flicker of a new interface come to life.
+
 ---
 
 # 2022-05-30
