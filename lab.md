@@ -29,7 +29,7 @@ And what a blue square it is!
 
 There were too many issues to count along the way. The computer I got ended up not having a wifi card built in but it did come with a usb wifi adapter. I spent altogether too much time manually downloading the debian packages needed to compile this adapter's firmware only to find out that it wasn't compatible with the latest linux kernel version. So I'm getting a new wifi adapter shipped, but in the meantime I went to the store to buy an ethernet cable. This let me get started but wouldn't reach to the right desk, so I have ended up using phone's hotspot through a manual bluetooth connection. Which of course lead to more issues. My printer is configured to work on my home network which this desktop computer doesn't have access to (since it doesn't have a wifi card), so printing out four April tags involved alternating between my phone's hotspot to get a single print job queued and then my home network to actaully print it. A wild ride for sure!
 
-But it should all be worth it! We're seeing the flicker of a new interface come to life.
+But it should all be worth it! Watching a new interface flicker to life.
 
 ---
 
