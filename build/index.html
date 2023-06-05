@@ -106,6 +106,9 @@ img {
 max-width: 100%;
 max-height: 500px;
 }
+code::before, code::after {
+content: '`';
+}
 </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -115,6 +118,44 @@ max-height: 500px;
 <h1 id="charles-lab-notes"><a href="#charles-lab-notes" class="header-anchor">Charles’ lab notes</a></h1>
 <p>Welcome! This is a place for me to publish less polished thoughts and
 findings as they come up, research-related or otherwise. See <a href="#motivation">#motivation</a> for details.</p>
+<hr />
+<h1 id="2022-06-05"><a href="#2022-06-05" class="header-anchor">2022-06-05</a></h1>
+<p>Some highlights from the past few days:</p>
+<ol type="1">
+<li>Continued work on the folk setup. Calibration between the camera and
+projector isn’t working, still have to investigate that today. But I got
+a wifi adapter so no hotspotting for me anymore!</li>
+<li><a href="https://twitter.com/rsnous/status/1665126377144590341">HTML
+energy</a> event on saturday. Really fun to see people congregate to
+make digital art!</li>
+<li>I’ve been getting really into lua and hammerspoon recently. Made a
+keybinding to let me quickly open these lab notes, for instance! It’s
+fun to think of my computer as a display mechanism underneath a pile of
+lua.</li>
+<li>In the course of this lua splurge, I wanted to execute a program in
+a directory <em>without</em> using a shell to <code>cd</code> there
+first. It feels like this should be a built-in utility! Like how you can
+set an environment variable with <code>env THIS=THAT</code>. So I made
+it! It lets you
+<code>exec-in a-directory    your-executable your-arguments</code>.
+Worked great! Maybe there’s something else that does it? It was kind of
+fun to write — I wrote the bash first and then asked an LLM to convert
+it to C for me. <a href="https://github.com/charlesetc/utils/tree/main/exec-in">github</a></li>
+<li>I’ve been with <a href="https://just-be.dev/">Justin</a> about
+making an in-air LCD display: completely transparent except when you
+want it to show something. Like an iPad for AR I suppose? I’d be
+interested in combining these with cameras to make a sort of window into
+the augmented world.</li>
+</ol>
+<h1 id="next-notes"><a href="#next-notes" class="header-anchor">Next
+Notes</a></h1>
+<ul>
+<li>html energy</li>
+<li>continuing folk setup</li>
+<li>lua &amp; hammerspoon</li>
+<li>in-air lcd display</li>
+<li>exec-in <a href="https://github.com/charlesetc/utils/tree/main/exec-in" class="uri">https://github.com/charlesetc/utils/tree/main/exec-in</a></li>
+</ul>
 <hr />
 <h1 id="2022-05-31"><a href="#2022-05-31" class="header-anchor">2022-05-31</a></h1>
 <p>An awesome day. It started out by installing ubuntu on a small

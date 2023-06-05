@@ -1,9 +1,43 @@
 
-
 # Charles' lab notes
 
 Welcome! This is a place for me to publish less polished thoughts and findings as they come up, research-related or otherwise. See [#motivation](#motivation) for details.
 
+---
+
+# 2022-06-05
+
+Some highlights from the past few days:
+
+1. Continued work on the folk setup. Calibration between the camera and
+   projector isn't working, still have to investigate that today. But I got a
+   wifi adapter so no hotspotting for me anymore!
+2. [HTML energy](https://twitter.com/rsnous/status/1665126377144590341) event
+   on saturday. Really fun to see people congregate to make digital art!
+3. I've been getting really into lua and hammerspoon recently. Made a
+   keybinding to let me quickly open these lab notes, for instance! It's fun to
+   think of my computer as a display mechanism underneath a pile of lua.
+4. In the course of this lua splurge, I wanted to execute a program in a
+   directory *without* using a shell to `cd` there first. It feels like this
+   should be a built-in utility! Like how you can set an environment variable
+   with `env THIS=THAT`. So I made it! It lets you `exec-in a-directory
+   your-executable your-arguments`. Worked great! Maybe there's something else
+   that does it? It was kind of fun to write — I wrote the bash first and then
+   asked an LLM to convert it to C for me. [github
+   ](https://github.com/charlesetc/utils/tree/main/exec-in)
+5. I've been with [Justin](https://just-be.dev/) about making an in-air LCD display: completely
+   transparent except when you want it to show something. Like an iPad for AR I
+   suppose? I'd be interested in combining these with cameras to make a sort of window into the
+   augmented world.
+
+# Next Notes 
+
+- html energy
+- continuing folk setup
+- lua & hammerspoon
+- in-air lcd display
+- exec-in 
+  <https://github.com/charlesetc/utils/tree/main/exec-in>
 
 ---
 
@@ -72,7 +106,10 @@ end
 
 # 2022-05-28
 
-I've added an RSS feed for these notes! I'm using pandoc to render a single markdown file into html, so had to figure out some way to get an rss feed as well. I went with a ruby script to parse the markdown and generate the xml on build. Turned out to be easier than I was expecting!
+I've added an RSS feed for these notes! I'm using pandoc to render a single
+markdown file into html, so had to figure out some way to get an rss feed as
+well. I went with a ruby script to parse the markdown and generate the xml on
+build. Turned out to be easier than I was expecting!
 
 See the feed here: [./rss.xml](./rss.xml)
 
@@ -82,16 +119,30 @@ See the feed here: [./rss.xml](./rss.xml)
 
 ## Motivation
 
-Well I've been doing some long-form writing on my [blog](https://inclouds.space/blog) and I've enjoyed it. But the format necessitates a lot of editing and care, at least in my mind. This can be good for me—practicing writing long form pieces and the editing that goes with that—but it's not easy and often either prevents me from getting content out or seriously delays it. I'd like to be able to share spur of the moment insights and snippets easily and quickly, in the hopes that I end up getting a larger amount of content out and in public. That too is good practice!
+Well I've been doing some long-form writing on my
+[blog](https://inclouds.space/blog) and I've enjoyed it. But the format
+necessitates a lot of editing and care, at least in my mind. This can be good
+for me—practicing writing long form pieces and the editing that goes with
+  that—but it's not easy and often either prevents me from getting content out
+  or seriously delays it. I'd like to be able to share spur of the moment
+  insights and snippets easily and quickly, in the hopes that I end up getting
+  a larger amount of content out and in public. That too is good practice!
 
-So please bear with me; thoughts might not be as fully-formed, spelling might not be well-checked, grammar will be okay at best. This is an experiment! I'm hoping the content itself can earn its keep despite these potential pitfalls.
+So please bear with me; thoughts might not be as fully-formed, spelling might
+not be well-checked, grammar will be okay at best. This is an experiment! I'm
+hoping the content itself can earn its keep despite these potential pitfalls.
 
-Also I like exclamation points and will probably use more of them here than my normal blog! No more censorship!
+Also I like exclamation points and will probably use more of them here than my
+normal blog! No more censorship!
 
 
 ## Forest
 
-As I add these lab notes to the nav of my main site, they are replacing a link to my "forest" — an attempt at a digital garden I made a few months ago. Recently it has become less of a garden and more of a small, static grove of trees. So instead of pointing to it so directly, I'm moving the link here. Please enjoy! [forest.inclouds.space](https://forest.inclouds.space/)
+As I add these lab notes to the nav of my main site, they are replacing a link
+to my "forest" — an attempt at a digital garden I made a few months ago.
+Recently it has become less of a garden and more of a small, static grove of
+trees. So instead of pointing to it so directly, I'm moving the link here.
+Please enjoy! [forest.inclouds.space](https://forest.inclouds.space/)
 
 ---
 
