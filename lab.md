@@ -30,15 +30,6 @@ Some highlights from the past few days:
    suppose? I'd be interested in combining these with cameras to make a sort of window into the
    augmented world.
 
-# Next Notes 
-
-- html energy
-- continuing folk setup
-- lua & hammerspoon
-- in-air lcd display
-- exec-in 
-  <https://github.com/charlesetc/utils/tree/main/exec-in>
-
 ---
 
 # 2022-05-31
