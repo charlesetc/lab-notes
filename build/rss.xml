@@ -28,7 +28,21 @@
 5. I&#39;ve been with [Justin](https://just-be.dev/) about making an in-air LCD display: completely
    transparent except when you want it to show something. Like an iPad for AR I
    suppose? I&#39;d be interested in combining these with cameras to make a sort of window into the
-   augmented world.</description>
+   augmented world.
+
+
+&lt;pre&gt;---&lt;/pre&gt;
+
+Update: Got calibration working and so the rectangles are now following the
+april tags! The automatic calibration still isn&#39;t quite working, I had to manually
+feed in some of the points that it came up with. And as you can see the
+calibration isn&#39;t that good. But it&#39;s a starting point!
+
+![](./static/IMG_2036.jpeg)
+
+Also, bubble:
+
+![](./static/IMG_2018.jpeg)</description>
         <guid isPermaLink="false">inclouds-space-20220605</guid>
       </item>
 

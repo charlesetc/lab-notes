@@ -30,6 +30,21 @@ Some highlights from the past few days:
    suppose? I'd be interested in combining these with cameras to make a sort of window into the
    augmented world.
 
+
+<pre>---</pre>
+
+Update: Got calibration working and so the rectangles are now following the
+april tags! The automatic calibration still isn't quite working, I had to manually
+feed in some of the points that it came up with. And as you can see the
+calibration isn't that good. But it's a starting point!
+
+![](./static/IMG_2036.jpeg)
+
+Also, bubble:
+
+![](./static/IMG_2018.jpeg)
+
+
 ---
 
 # 2022-05-31
