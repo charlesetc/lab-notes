@@ -79,8 +79,8 @@ Turns out that LCDs are quite dark even with the backing peeled off and need a
 backlight to really shine, making projection still the way to go.
 
 So I got some samples of the film shipped to me, bought a glass panel,
-some brass rods, and another ikea task lamp! Maybe this will turn into somethign
-very cool!
+some brass rods, and another ikea task lamp! Maybe this will turn into something
+cool!
 
 ---
 
