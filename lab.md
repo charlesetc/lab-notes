@@ -19,7 +19,7 @@ A quick note on hype: I think people lose their minds when it comes to new
 technology. New tech is cool and fun and often genuinely transformative! But at
 any given time period those transformations are finite. Some things change, some
 things don't. And we are bad at knowing what will and won't change `n` months
-out. Be careful of claims with absolute certainty. We all need some serious
+out. I try to be careful of claims with absolute certainty. We all need some
 humility in times like these.
 
 Anyways!
