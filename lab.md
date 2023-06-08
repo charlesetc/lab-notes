@@ -5,6 +5,85 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 ---
 
+# 2022-06-08
+
+
+Smoke and (AR) mirrors in New York City.
+
+I'm happy to see a hype shift towards more HCI-related topics
+and away from all AI all the time. AR relates more to my interests and,
+while surely it has some distopian futures embedded in the discourse, it's at
+  least not entirely centered around them.
+
+A quick note on hype: I think people lose their minds when it comes to new
+technology. New tech is cool and fun and often genuinely transformative! But at
+any given time period those transformations are finite. Some things change, some
+things don't. And we are bad at knowing what will and won't change `n` months
+out. Be careful of claims with absolute certainty. We all need some serious
+humility in times like these.
+
+Anyways!
+
+Apple's headset is cool — especially the eye tracking!
+We've never seen it in mainstream tech hardware before. I'm really excited
+for the possibilities. Though I don't think I'll rush to build an app for it.
+I'm much more excited about projectors! The ability for tech to actually
+*augment* the world without taking away my ability to engage with the people
+therein is so important.
+
+This brings me to [Folk](https://folk.computer). I've been volunteering a little
+with the team, getting a home instance set up, and it's finally working!
+
+1. It's much faster than I was expecting. Very satisfying to play with. I think
+   I'm getting around 30 frames per second. I don't think 60 is that far away
+   and that's even more exciting.
+2. I've been experimenting with different paper types and sizes. I was very
+   pleasantly surprised by newsprint! Mine has a great kind of soft-glossy
+   texture, stacks well since it's so thin, and has more of an e-ink color compared to
+   normal bright white paper. Also, suprisingly durable! I've been cutting it to
+   approximately A6 size for now and I like that much better than letter or
+   half-letter: there's room for more cards to fit under the relatively small
+   projection space on my desk.
+3. I've been thinking about what I would want to build with this sort of
+   interface. There's the question of "are the papers cenceptualized as *the
+   thing* you are manipulating or are they handles to an explicitely virtual
+   object?". Maybe the answer has to be: both depending on the context, but
+   favor *the thing* when possible.
+4. I'm torn about the english-like regex pattern matching syntax, which is used to read
+   and write from the Folk in-memory reactive database. On the one
+   hand, I do like the idea that things are extensible, self-documenting,
+   accessible, etc. But it is a bit verbose at times and there is very little
+   error information when you mistype something. 
+   Better tooling might help!
+5. It's interesting that I already want *finer* inputs to the things that I'm
+   manipulating. I want to have a relative small circle drawn and then be able
+   to attach small things to it and so on. This is not really easy to do given
+   the size of April tags. There's some thought of switching to Bullseye
+   feducials to get smaller feducial tracking, but you'll still
+   have to worry about occluding tags with your hand. Electrical engineering to the rescue?
+6. It's hard to know how much time to spend on the system itself or
+learning how to build apps on top of it.
+
+I also spent a good amount of time researching in-air (transparent) displays.
+Been thinking about how to create a folk-like experience by positioning one
+between the table and my head, using cameras for head-tracking.
+
+There are two ways I was thinking of doing this:
+
+1. Find an LCD display, peel of the backing, and then hopefully get a
+   transparent LCD display panel.
+2. Project onto a piece of glass with a film on it that is suspended between you
+   and a table with objects.
+
+Turns out that LCDs are quite dark even with the backing peeled off and need a
+backlight to really shine, making projection still the way to go.
+
+So I got some samples of the film shipped to me, bought a glass panel,
+some brass rods, and another ikea task lamp! Maybe this will turn into somethign
+very cool!
+
+---
+
 # 2022-06-05
 
 Some highlights from the past few days:
