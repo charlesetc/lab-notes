@@ -6,6 +6,17 @@
     <description>Charles' quick-to-publish notes</description>
     <language>en-us</language>
       <item>
+        <title># 2022-06-09</title>
+        <description>I wrote my first meaningful folk program! Its goal is to prove [Thales&#39; theorem](https://en.wikipedia.org/wiki/Thales%27s_theorem) by letting people interact with the pieces. Thale&#39;s theorem states that any triangle whose corners lie on the circumference of a circle and whose hypotenuse is the diameter of the circle is a right triangle. See for yourself:
+
+&lt;video controls muted&gt;
+  &lt;source src=&quot;./static/folk-01.mov&quot; type=&quot;video/mp4&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;</description>
+        <guid isPermaLink="false">inclouds-space-20220609</guid>
+      </item>
+
+      <item>
         <title># 2022-06-08</title>
         <description>Smoke and (AR) mirrors in New York City.
 
@@ -28,7 +39,7 @@ We&#39;ve never seen it in mainstream tech hardware before. I&#39;m really excit
 for the possibilities. Though I don&#39;t think I&#39;ll rush to build an app for it.
 I&#39;m much more excited about projectors! The ability for tech to actually
 *augment* the world without taking away my ability to engage with the people
-therein is so important.
+therein. So important!
 
 This brings me to [Folk](https://folk.computer). I&#39;ve been volunteering a little
 with the team, getting a home instance set up, and it&#39;s finally working!

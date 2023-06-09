@@ -5,6 +5,17 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 ---
 
+# 2022-06-09
+
+I wrote my first meaningful folk program! Its goal is to prove [Thales' theorem](https://en.wikipedia.org/wiki/Thales%27s_theorem) by letting people interact with the pieces. Thale's theorem states that any triangle whose corners lie on the circumference of a circle and whose hypotenuse is the diameter of the circle is a right triangle. See for yourself:
+
+<video controls muted>
+  <source src="./static/folk-01.mov" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
+
+---
+
 # 2022-06-08
 
 
@@ -29,7 +40,7 @@ We've never seen it in mainstream tech hardware before. I'm really excited
 for the possibilities. Though I don't think I'll rush to build an app for it.
 I'm much more excited about projectors! The ability for tech to actually
 *augment* the world without taking away my ability to engage with the people
-therein is so important.
+therein. So important!
 
 This brings me to [Folk](https://folk.computer). I've been volunteering a little
 with the team, getting a home instance set up, and it's finally working!
