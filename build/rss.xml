@@ -6,18 +6,18 @@
     <description>Charles' quick-to-publish notes</description>
     <language>en-us</language>
       <item>
-        <title># 2022-06-09</title>
+        <title># 2023-06-09</title>
         <description>I wrote my first meaningful folk program! Its goal is to prove [Thales&#39; theorem](https://en.wikipedia.org/wiki/Thales%27s_theorem) by letting people interact with the pieces. Thale&#39;s theorem states that any triangle whose corners lie on the circumference of a circle and whose hypotenuse is the diameter of the circle is a right triangle. See for yourself:
 
 &lt;video controls muted&gt;
   &lt;source src=&quot;https://raw.githubusercontent.com/charlesetc/lab-notes/video/build/static/folk-01.mov&quot; type=&quot;video/mp4&quot; /&gt;
 Your browser does not support the video tag.
 &lt;/video&gt;</description>
-        <guid isPermaLink="false">inclouds-space-20220609</guid>
+        <guid isPermaLink="false">inclouds-space-20230609</guid>
       </item>
 
       <item>
-        <title># 2022-06-08</title>
+        <title># 2023-06-08</title>
         <description>Smoke and (AR) mirrors in New York City.
 
 I&#39;m happy to see a hype shift towards more HCI-related topics
@@ -91,11 +91,11 @@ backlight to really shine, making projection still the way to go.
 So I got some samples of the film shipped to me, bought a glass panel,
 some brass rods, and another ikea task lamp! Maybe this will turn into something
 cool!</description>
-        <guid isPermaLink="false">inclouds-space-20220608</guid>
+        <guid isPermaLink="false">inclouds-space-20230608</guid>
       </item>
 
       <item>
-        <title># 2022-06-05</title>
+        <title># 2023-06-05</title>
         <description>Some highlights from the past few days:
 
 1. Continued work on the folk setup. Calibration between the camera and
@@ -132,11 +132,11 @@ calibration isn&#39;t that good. But it&#39;s a starting point!
 Also, bubble:
 
 ![](./static/IMG_2018.jpeg)</description>
-        <guid isPermaLink="false">inclouds-space-20220605</guid>
+        <guid isPermaLink="false">inclouds-space-20230605</guid>
       </item>
 
       <item>
-        <title># 2022-05-31</title>
+        <title># 2023-05-31</title>
         <description>An awesome day. It started out by installing ubuntu on a small desktop computer:
 
 ![](./static/2023-05-31-01.jpeg)
@@ -158,11 +158,11 @@ And what a blue square it is!
 There were too many issues to count along the way. The computer I got ended up not having a wifi card built in but it did come with a usb wifi adapter. I spent altogether too much time manually downloading the debian packages needed to compile this adapter&#39;s firmware only to find out that it wasn&#39;t compatible with the latest linux kernel version. So I&#39;m getting a new wifi adapter shipped, but in the meantime I went to the store to buy an ethernet cable. This got me started but it wouldn&#39;t reach to the right desk, so I have ended up tethering my phone&#39;s hotspot through a usb connection. Which of course lead to more issues. My printer is configured to work on my home network which this desktop computer doesn&#39;t have access to (since it doesn&#39;t have a wifi card), so printing out four April tags involved alternating between my phone&#39;s hotspot to get a single print job queued and then my home network to actually print it. A wild ride for sure!
 
 But it should all be worth it soon.</description>
-        <guid isPermaLink="false">inclouds-space-20220531</guid>
+        <guid isPermaLink="false">inclouds-space-20230531</guid>
       </item>
 
       <item>
-        <title># 2022-05-30</title>
+        <title># 2023-05-30</title>
         <description>I&#39;m in the process of setting up a [folk.computer](https://folk.computer) installation! Today involved running to the hardware store to buy clamps, eyewear, power strip, flash drive, etc. Tonight or tomorrow I&#39;ll start drilling: have to widen the holes in a monitor arm&#39;s VESA mount to let through the 1/4&quot; 20 screws that the projector and webcam use. I&#39;m hoping that the end result will be pretty clean!
 
 Folk is a projector-camera &quot;physical computing&quot; interface and operating system developed by [Andrés](https://cwervo.com/) and [Omar](https://omar.website/). The idea is you position a camera and a projector above your desk and plug them into a computer with access to a printer. This setup lets you:
@@ -174,11 +174,11 @@ Folk is a projector-camera &quot;physical computing&quot; interface and operatin
 I&#39;m extremely excited about this. Last week I witnessed a musical performance where someone with no particular training manipulated 5 pieces of paper to create a musical experience. This is how we seamlessly empower non-technical humans with technology: extraordinarily easy, high-bandwidth interfaces you can **play** with.
 
 Stay posted.</description>
-        <guid isPermaLink="false">inclouds-space-20220530</guid>
+        <guid isPermaLink="false">inclouds-space-20230530</guid>
       </item>
 
       <item>
-        <title># 2022-05-29</title>
+        <title># 2023-05-29</title>
         <description>I added links on each header here! Had to use pandoc&#39;s gfm_auto_identifiers extension and then used a [lua filter](https://pandoc.org/lua-filters.html) to add the actual links to the header. This was an updated version of [the filter](https://github.com/jgm/pandoc-website/blob/master/tools/anchor-links.lua) pandoc uses for its own documentation.
 
 ```lua
@@ -195,22 +195,22 @@ function Header(h)
   end
 end
 ```</description>
-        <guid isPermaLink="false">inclouds-space-20220529</guid>
+        <guid isPermaLink="false">inclouds-space-20230529</guid>
       </item>
 
       <item>
-        <title># 2022-05-28</title>
+        <title># 2023-05-28</title>
         <description>I&#39;ve added an RSS feed for these notes! I&#39;m using pandoc to render a single
 markdown file into html, so had to figure out some way to get an rss feed as
 well. I went with a ruby script to parse the markdown and generate the xml on
 build. Turned out to be easier than I was expecting!
 
 See the feed here: [./rss.xml](./rss.xml)</description>
-        <guid isPermaLink="false">inclouds-space-20220528</guid>
+        <guid isPermaLink="false">inclouds-space-20230528</guid>
       </item>
 
       <item>
-        <title># 2022-05-27</title>
+        <title># 2023-05-27</title>
         <description>## Motivation
 
 Well I&#39;ve been doing some long-form writing on my
@@ -237,7 +237,7 @@ to my &quot;forest&quot; — an attempt at a digital garden I made a few months 
 Recently it has become less of a garden and more of a small, static grove of
 trees. So instead of pointing to it so directly, I&#39;m moving the link here.
 Please enjoy! [forest.inclouds.space](https://forest.inclouds.space/)</description>
-        <guid isPermaLink="false">inclouds-space-20220527</guid>
+        <guid isPermaLink="false">inclouds-space-20230527</guid>
       </item>
 
   </channel>

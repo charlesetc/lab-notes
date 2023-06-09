@@ -5,7 +5,7 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 ---
 
-# 2022-06-09
+# 2023-06-09
 
 I wrote my first meaningful folk program! Its goal is to prove [Thales' theorem](https://en.wikipedia.org/wiki/Thales%27s_theorem) by letting people interact with the pieces. Thale's theorem states that any triangle whose corners lie on the circumference of a circle and whose hypotenuse is the diameter of the circle is a right triangle. See for yourself:
 
@@ -16,7 +16,7 @@ Your browser does not support the video tag.
 
 ---
 
-# 2022-06-08
+# 2023-06-08
 
 
 Smoke and (AR) mirrors in New York City.
@@ -95,7 +95,7 @@ cool!
 
 ---
 
-# 2022-06-05
+# 2023-06-05
 
 Some highlights from the past few days:
 
@@ -137,7 +137,7 @@ Also, bubble:
 
 ---
 
-# 2022-05-31
+# 2023-05-31
 
 An awesome day. It started out by installing ubuntu on a small desktop computer:
 
@@ -163,7 +163,7 @@ But it should all be worth it soon.
 
 ---
 
-# 2022-05-30
+# 2023-05-30
 
 I'm in the process of setting up a [folk.computer](https://folk.computer) installation! Today involved running to the hardware store to buy clamps, eyewear, power strip, flash drive, etc. Tonight or tomorrow I'll start drilling: have to widen the holes in a monitor arm's VESA mount to let through the 1/4" 20 screws that the projector and webcam use. I'm hoping that the end result will be pretty clean!
 
@@ -179,7 +179,7 @@ Stay posted.
 
 ---
 
-# 2022-05-29
+# 2023-05-29
 
 I added links on each header here! Had to use pandoc's gfm_auto_identifiers extension and then used a [lua filter](https://pandoc.org/lua-filters.html) to add the actual links to the header. This was an updated version of [the filter](https://github.com/jgm/pandoc-website/blob/master/tools/anchor-links.lua) pandoc uses for its own documentation.
 
@@ -200,7 +200,7 @@ end
 
 ---
 
-# 2022-05-28
+# 2023-05-28
 
 I've added an RSS feed for these notes! I'm using pandoc to render a single
 markdown file into html, so had to figure out some way to get an rss feed as
@@ -211,7 +211,7 @@ See the feed here: [./rss.xml](./rss.xml)
 
 ---
 
-# 2022-05-27
+# 2023-05-27
 
 ## Motivation
 
