@@ -10,7 +10,8 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 I wrote my first meaningful folk program! Its goal is to prove [Thales' theorem](https://en.wikipedia.org/wiki/Thales%27s_theorem) by letting people interact with the pieces. Thale's theorem states that any triangle whose corners lie on the circumference of a circle and whose hypotenuse is the diameter of the circle is a right triangle. See for yourself:
 
 <video controls muted>
-  <source src="./static/folk-01.mov" type="video/mp4" />
+  <!-- <source src="./static/folk-01.mov" type="video/mp4" /> -->
+  <source src="https://raw.githubusercontent.com/charlesetc/lab-notes/main/build/static/folk-01.mov" type="video/mp4" />
 Your browser does not support the video tag.
 </video>
 
