@@ -1,4 +1,4 @@
-watch:
+watch: open
 	@echo building...
 	@ls tools/* lab.md style.css makefile | entr make build
 

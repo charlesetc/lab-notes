@@ -5,6 +5,33 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 ---
 
+# 2023-06-16
+
+## Folk
+Update time! 
+
+I've had a performance regression on my folk system, with the frame rate dropping to something like 10. It's preventing me from experimenting with higher level applications, since the kind of interaction that I was showing in my last post is just terrible at 10fps. In the process of debugging!
+
+I've also been helping out to improve the calibration in Folk. One problem that you get in projector-camera mapping systems like this is you often want to project a graphic relative to something that the camera sees. But you don't know a priori where the projector can project in terms of the camera. Hence, projector-camera calibration: the process of mapping camera coordinates to projector coordinates.
+
+The way this works in Folk is it lights up each pixel of the projector uniquely, paying close attention with the camera. But some pixels from the projector don't get seen by the camera, so it picks just 4 points that are and then comes up with a linear map using those 4 points between the projector space and the camera space. Unfortunately this linear map doesn't work so well because the distortion within the camera and projector isn't linear: there is radial distortion in their lenses that aren't taken into account. So we've been working on coming up with a mapping that does take into account radial disortion. And even more fun we're working on mapping into 3d coordinates as well. Since we know the physical size the April tags, we can infer how high up they are in space. More accurate and 3-dimensional calibration will let folk precisily project onto various portions of a page, even when it's being held and moved around in space. Very exciting!
+
+I did write one higher-level primitive in folk: an "operator" card. Basically, you can declare a card is an operator and then it'll get information about which cards are to the immediate left or right of it. So you can have behaviour defined by putting three cards down in an order. I'm planning on using this for doing a vector  addition demo in folk!
+
+## Societal Attention
+
+Also and unrelated: I've been thinking about "societal attention". There's this concept we have of individual, human attention. Something gets brought up in an individual's consciousness, and then they spend time thinking about that thing. Those initial thoughts might lead to more thoughts and, well, this is the process of paying attenion and thinking about something.
+
+So I think there is an analogous phenomenon in human societes: something happens and whole groups of people end up thinking about it. They think some thoughts, share them around, prompting more thoughts. My insight here is that societies can kind of get "lost in thought" the same way humans can: they can spend their time thinking and talking about something, even if it doesn't end up being useful or even if the original bits of information that sparked the discussion were incorrect or mistaken.
+
+Maybe it's worthwhile thinking about how we could short-circuit these kinds of conversations once it's clear (to whom?) that they are no longer productive? Maybe it just takes a lot of individuals carefully doing that in their own thinking processes?
+
+## Transparent Display
+
+I got the projector films in the mail! I put them onto some glass and put the glass in front of a projector, basically making a transparent display. Pretty decent? It's a bit unclear what the possible applications would be. I'll try to talk more about it in the future and share some links/photos in case anyone else wants to try.
+
+---
+
 # 2023-06-09
 
 I wrote my first meaningful folk program! Its goal is to prove [Thales' theorem](https://en.wikipedia.org/wiki/Thales%27s_theorem) by letting people interact with the pieces. Thale's theorem states that any triangle whose corners lie on the circumference of a circle and whose hypotenuse is the diameter of the circle is a right triangle. See for yourself:
