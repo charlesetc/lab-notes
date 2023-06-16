@@ -7,8 +7,9 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 # 2023-06-16
 
-## Folk
 Update time! 
+
+## Folk
 
 I've had a performance regression on my folk system, with the frame rate dropping to something like 10. It's preventing me from experimenting with higher level applications, since the kind of interaction that I was showing in my last post is just terrible at 10fps. In the process of debugging!
 

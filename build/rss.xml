@@ -7,8 +7,9 @@
     <language>en-us</language>
       <item>
         <title># 2023-06-16</title>
-        <description>## Folk
-Update time! 
+        <description>Update time! 
+
+## Folk
 
 I&#39;ve had a performance regression on my folk system, with the frame rate dropping to something like 10. It&#39;s preventing me from experimenting with higher level applications, since the kind of interaction that I was showing in my last post is just terrible at 10fps. In the process of debugging!
 
