@@ -6,30 +6,151 @@
     <description>Charles' quick-to-publish notes</description>
     <language>en-us</language>
       <item>
+        <title># 2023-06-21 (published 2023-06-26)</title>
+        <description>## Neovim and Lua
+
+Well last weekend was very fun! I completely revamped my editor setup -
+switching to neovim with only lua plugins. I&#39;m extremely impressed by the
+quality of this ecosystem. Especially compared to the vimscript ecosystem, I&#39;ve
+had far fewer bugs, plugins conflicting with each other, latency
+issues, etc. Plus the plugins don&#39;t seem to be bloated and the start times are
+good! This has all happened just in the last couple of years! Well done lua
+vimmers. Thank you.
+
+I&#39;m curious how my software-building desires will change now that I have an
+editor I like. I&#39;ve been leaning heavily towards the &#39;build the whole
+editor up from scratch&#39; route. I could see myself doing some more neovim
+integrations instead in the future?
+
+## Folk
+
+I&#39;ve been trying to help Andrés and Omar improve the folk system. We&#39;ve both
+made a lot of progress and have very little to show for it so far. Though I&#39;m
+optimistic. There&#39;s just a lot of work doing this kind of real-time tracking.
+Most of the work has been on camera-projector calibration and performance. It
+might not sound like the most important work—you could make the argument that
+features or integrations could be more important at this stage—to which I
+would have to disagree: the faster the system and the better-calibrated is the
+more *__real__* it is. The illusion holds. And more: the idea communicates.
+People can start to understand the power of this kind of system.  But yeah,
+it&#39;s a lot of systems programming and debugging. 
+
+
+## Physical interfaces
+
+There are some fun routes I&#39;m exploring around physical interfaces to
+computers:
+
+##### 1. Monocle
+
+I just ordered a [monocle](https://brilliant.xyz/products/monocle), a small AR
+device that clips onto a camera frame. It&#39;s essentially a tiny oled display + a
+prism + a camera + two touch sensors + a bluetooth chip + an FPGA + a battery +
+a clip. What a bundle!
+
+Basically this lets you augment a very small rectangle in your vision: drawing
+some graphics or writing some text. It seems like the software is very much a work in
+progress, without very much hardware integration at all. I&#39;m not sure to
+what extent I&#39;ll be able to use the camera for instance, but I&#39;m looking forward
+to finding out!
+
+##### 2. Magnetic sheets
+
+I also bought some magnetic sheets from Amazon yesterday. They are adhesive on
+one side so my plan is to print out some words on paper, stick on the magnetic
+sheets, and then cut out the words. Much like the refrigerator magnet poetry of
+my youth! But this time it&#39;ll be Logo commands with camera recognition. That&#39;s
+right! Stay tuned.
+
+#### 3. Transparent Displays
+
+The projector film arrived a couple days ago! I tested it out with the folk
+system a bit, by placing a projector on the table pointing at me and positioning
+a sheet of glass with the film between me and the table. It&#39;s pretty
+interesting!
+soon.
+
+Basically: it&#39;s a transparent display! There are some air bubbles but I
+would probably call that user error than anything else. Most of the films are
+quite blurry at distances &gt; a few inches. One of them — the most transparent
+— seems like it might be better in this regard.
+
+What does this give you over just projecting onto a desk from above? That&#39;s the
+question I&#39;m hoping to answer, I guess. I think the biggest answer so far is
+that you don&#39;t have to worry about the topology of what you&#39;re projecting on:
+the screen is flat and anything drawn to it will appear un-distorted above the
+objects on the table.
+
+I&#39;ll get some photos and videos of it up on this page sometime soon.</description>
+        <guid isPermaLink="false">inclouds-space-20230621published20230626</guid>
+      </item>
+
+      <item>
         <title># 2023-06-16</title>
         <description>Update time! 
 
 ## Folk
 
-I&#39;ve had a performance regression on my folk system, with the frame rate dropping to something like 10. It&#39;s preventing me from experimenting with higher level applications, since the kind of interaction that I was showing in my last post is just terrible at 10fps. In the process of debugging!
+I&#39;ve had a performance regression on my folk system, with the frame rate
+dropping to something like 10. It&#39;s preventing me from experimenting with higher
+level applications, since the kind of interaction that I was showing in my last
+post is just terrible at 10fps. In the process of debugging!
 
-I&#39;ve also been helping out to improve the calibration in Folk. One problem that you get in projector-camera mapping systems like this is you often want to project a graphic relative to something that the camera sees. But you don&#39;t know a priori where the projector can project in terms of the camera. Hence, projector-camera calibration: the process of mapping camera coordinates to projector coordinates.
+I&#39;ve also been helping out to improve the calibration in Folk. One problem that
+you get in projector-camera mapping systems like this is you often want to
+project a graphic relative to something that the camera sees. But you don&#39;t know
+a priori where the projector can project in terms of the camera. Hence,
+projector-camera calibration: the process of mapping camera coordinates to
+projector coordinates.
 
-The way this works in Folk is it lights up each pixel of the projector uniquely, paying close attention with the camera. But some pixels from the projector don&#39;t get seen by the camera, so it picks just 4 points that are and then comes up with a linear map using those 4 points between the projector space and the camera space. Unfortunately this linear map doesn&#39;t work so well because the distortion within the camera and projector isn&#39;t linear: there is radial distortion in their lenses that aren&#39;t taken into account. So we&#39;ve been working on coming up with a mapping that does take into account radial disortion. And even more fun we&#39;re working on mapping into 3d coordinates as well. Since we know the physical size the April tags, we can infer how high up they are in space. More accurate and 3-dimensional calibration will let folk precisily project onto various portions of a page, even when it&#39;s being held and moved around in space. Very exciting!
+The way this works in Folk is it lights up each pixel of the projector uniquely,
+paying close attention with the camera. But some pixels from the projector don&#39;t
+get seen by the camera, so it picks just 4 points that are and then comes up
+with a linear map using those 4 points between the projector space and the
+camera space. Unfortunately this linear map doesn&#39;t work so well because the
+distortion within the camera and projector isn&#39;t linear: there is radial
+distortion in their lenses that aren&#39;t taken into account. So we&#39;ve been working
+on coming up with a mapping that does take into account radial disortion. And
+even more fun we&#39;re working on mapping into 3d coordinates as well. Since we
+know the physical size the April tags, we can infer how high up they are in
+space. More accurate and 3-dimensional calibration will let folk precisily
+project onto various portions of a page, even when it&#39;s being held and moved
+around in space. Very exciting!
 
-I did write one higher-level primitive in folk: an &quot;operator&quot; card. Basically, you can declare a card is an operator and then it&#39;ll get information about which cards are to the immediate left or right of it. So you can have behaviour defined by putting three cards down in an order. I&#39;m planning on using this for doing a vector  addition demo in folk!
+I did write one higher-level primitive in folk: an &quot;operator&quot; card. Basically,
+you can declare a card is an operator and then it&#39;ll get information about which
+cards are to the immediate left or right of it. So you can have behaviour
+defined by putting three cards down in an order. I&#39;m planning on using this for
+doing a vector  addition demo in folk!
 
 ## Societal Attention
 
-Also and unrelated: I&#39;ve been thinking about &quot;societal attention&quot;. There&#39;s this concept we have of individual, human attention. Something gets brought up in an individual&#39;s consciousness, and then they spend time thinking about that thing. Those initial thoughts might lead to more thoughts and, well, this is the process of paying attenion and thinking about something.
+Also and unrelated: I&#39;ve been thinking about &quot;societal attention&quot;. There&#39;s this
+concept we have of individual, human attention. Something gets brought up in an
+individual&#39;s consciousness, and then they spend time thinking about that thing.
+Those initial thoughts might lead to more thoughts and, well, this is the
+process of paying attenion and thinking about something.
 
-So I think there is an analogous phenomenon in human societes: something happens and whole groups of people end up thinking about it. They think some thoughts, share them around, prompting more thoughts. My insight here is that societies can kind of get &quot;lost in thought&quot; the same way humans can: they can spend their time thinking and talking about something, even if it doesn&#39;t end up being useful or even if the original bits of information that sparked the discussion were incorrect or mistaken.
+So I think there is an analogous phenomenon in human societes: something happens
+and whole groups of people end up thinking about it. They think some thoughts,
+share them around, prompting more thoughts. My insight here is that societies
+can kind of get &quot;lost in thought&quot; the same way humans can: they can spend their
+time thinking and talking about something, even if it doesn&#39;t end up being
+useful or even if the original bits of information that sparked the discussion
+were incorrect or mistaken.
 
-Maybe it&#39;s worthwhile thinking about how we could short-circuit these kinds of conversations once it&#39;s clear (to whom?) that they are no longer productive? Maybe it just takes a lot of individuals carefully doing that in their own thinking processes?
+Maybe it&#39;s worthwhile thinking about how we could short-circuit these kinds of
+conversations once it&#39;s clear (to whom?) that they are no longer productive?
+Maybe it just takes a lot of individuals carefully doing that in their own
+thinking processes?
 
 ## Transparent Display
 
-I got the projector films in the mail! I put them onto some glass and put the glass in front of a projector, basically making a transparent display. Pretty decent? It&#39;s a bit unclear what the possible applications would be. I&#39;ll try to talk more about it in the future and share some links/photos in case anyone else wants to try.</description>
+I got the projector films in the mail! I put them onto some glass and put the
+glass in front of a projector, basically making a transparent display. Pretty
+decent? It&#39;s a bit unclear what the possible applications would be. I&#39;ll try to
+talk more about it in the future and share some links/photos in case anyone else
+wants to try.</description>
         <guid isPermaLink="false">inclouds-space-20230616</guid>
       </item>
 
