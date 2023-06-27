@@ -50,10 +50,9 @@ prism + a camera + two touch sensors + a bluetooth chip + an FPGA + a battery +
 a clip. What a bundle!
 
 Basically this lets you augment a very small rectangle in your vision: drawing
-some graphics or writing some text. It seems like the software is very much a work in
-progress, without very much hardware integration at all. I'm not sure to
-what extent I'll be able to use the camera for instance, but I'm looking forward
-to finding out!
+some graphics or writing some text. It seems like the software is very much a
+work in progress. I'm not sure extent I'll be able to do with it, but I'm
+looking forward to finding out!
 
 ##### 2. Magnetic sheets
 
