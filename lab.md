@@ -20,7 +20,7 @@ but the simple joy of practicing my own agency through creation and learning in
 the process is just so wonderful. I'm not sure where it'll take me this time,
 but I'm leaning into it. Hopefully somewhere interesting!
 
-(I found [this talk](https://www.youtube.com/watch?v=XVGVsdEuPBs) by [Chia](https://twitter.com/hotemogf) very inspiring in that vein.)
+(In that vein, I found [this talk](https://www.youtube.com/watch?v=XVGVsdEuPBs) by [Chia](https://twitter.com/hotemogf) to be very inspiring.)
 
 Let's see, I also applied to work as a teacher at a Brooklyn coding school
 today. I've been reading a lot of education theory lately and am hoping to see
