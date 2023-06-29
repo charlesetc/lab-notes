@@ -25,14 +25,11 @@ integrations instead in the future?
 
 ## Folk
 
-I've been trying to help Andrés and Omar improve the folk system. We've both
-made a lot of progress and have very little to show for it so far. Though I'm
-optimistic. There's just a lot of work doing this kind of real-time tracking.
-Most of the work has been on camera-projector calibration and performance. It
-might not sound like the most important work—you could make the argument that
-features or integrations could be more important at this stage—to which I
-would have to disagree: the faster the system and the better-calibrated is the
-more *__real__* it is. The illusion holds. And more: the idea communicates.
+I've been helping Andrés and Omar improve the folk system. We've made a lot of
+progress even if it's a bit slow! I'm optimistic. There's a lot of work that
+goes into real-time tracking. Most of the work has been on camera-projector
+calibration and performance. The faster the system and the better-calibrated is
+the more *__real__* it is. The illusion holds. And more: the idea communicates.
 People can start to understand the power of this kind of system.  But yeah,
 it's a lot of systems programming and debugging. 
 
