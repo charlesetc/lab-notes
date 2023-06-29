@@ -22,9 +22,9 @@ but I'm leaning into it. Hopefully somewhere interesting!
 
 (In that vein, I found [this talk](https://www.youtube.com/watch?v=XVGVsdEuPBs) by [Chia](https://twitter.com/hotemogf) to be very inspiring.)
 
-Let's see, I also applied to work as a teacher at a Brooklyn coding school
-today. I've been reading a lot of education theory lately and am hoping to see
-what it's like to work with children directly. I'm guessing it'd be super informative.
+I also applied to work as a teacher at a Brooklyn coding school today. I've
+been reading a lot of education theory lately and am hoping to see what it's
+like to work with children directly. I'm guessing it'd be super informative.
 
 I also stumbled across what struck me as a lovely interactive piece of art
 today. It's a demo for accessing the webcam with rust in the browser that just
