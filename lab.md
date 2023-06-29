@@ -6,6 +6,49 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 ---
 
+# 2023-06-29
+
+Today was a nice day of calm focus and research.
+
+I am trying to learn more about electronics. My last project involed a
+raspberry pi zero and an oled display that got soldered on poorly, so today I
+purchased a solder sucker and two microcontrollers. I have a lot of ideas —
+suprisingly many are time-related? desk clock, watch, physical timer, etc.
+
+This sort of making is very motivating to me. I'm not sure if it's art or what,
+but the simple joy of practicing my own agency through creation and learning in
+the process is just so wonderful. I'm not sure where it'll take me this time,
+but I'm leaning into it. Hopefully something interesting will come of it!
+
+(I found [this talk](https://www.youtube.com/watch?v=XVGVsdEuPBs) by [Chia](https://twitter.com/hotemogf) very inspiring in that vein.)
+
+Let's see, I also applied to work as a teacher at a Brooklyn coding school
+today. I've been reading a lot of education theory lately and am hoping to see
+what it's like to work with children directly. I'm guessing it'd be super informative.
+
+I also stumbled across what struck me as a lovely interactive piece of art
+today. It's a demo for accessing the webcam with rust in the browser that just
+so happens to pixelate the image perfectly. I had a lot of fun dancing in front
+of the camera, enjoying an interactive control of the light on the screen. Here's an example of w
+is what it looks like (having tea at the time):
+
+![](./static/pixel-tea.png)
+
+I enjoyed this so much that I hosted a static version for y'alls enjoyment:
+[blocky.inclouds.space](https://blocky.inclouds.space)
+
+It's just a static site right now but I'm imagining a social network full of
+people sharing small blocky clips! There seems to be [a web
+api](https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrackGenerator)
+to create video in the brower but it's not supported by Firefox so I'm afraid
+that dream will have to wait. Though I might be able to [record an html
+element](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element)
+to create a vidoe? 
+
+Anyways that's all for today! 💻✨
+
+---
+
 # 2023-06-21 (published 2023-06-26)
 
 ## Neovim and Lua
@@ -32,7 +75,6 @@ calibration and performance. The faster the system and the better-calibrated is
 the more *__real__* it is. The illusion holds. And more: the idea communicates.
 People can start to understand the power of this kind of system.  But yeah,
 it's a lot of systems programming and debugging. 
-
 
 ## Physical interfaces
 
@@ -65,7 +107,6 @@ The projector film arrived a couple days ago! I tested it out with the folk
 system a bit, by placing a projector on the table pointing at me and positioning
 a sheet of glass with the film between me and the table. It's pretty
 interesting!
-soon.
 
 Basically: it's a transparent display! There are some air bubbles but I
 would probably call that user error than anything else. Most of the films are
