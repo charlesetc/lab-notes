@@ -28,7 +28,7 @@ like to work with children directly. I'm guessing it'd be super informative.
 
 I also stumbled across what struck me as a lovely interactive piece of art
 today. It's a demo for accessing the webcam with rust in the browser that just
-so happens to pixelate the image perfectly. I had a lot of fun dancing in front
+so happens to pixelate in a beautiful way. I had a lot of fun dancing in front
 of the camera, enjoying an interactive control of the light on the screen. Here's an example of w
 is what it looks like (having tea at the time):
 
