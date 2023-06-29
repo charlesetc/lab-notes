@@ -45,6 +45,8 @@ that dream will have to wait. Though I might be able to [record an html
 element](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element)
 to create a vidoe? 
 
+Or maybe it could be fun to have a dedicated device (microcontroller + camera + display) in my house like this? Could be a nice artwork!
+
 Anyways that's all for today! 💻✨
 
 P.S. I also came across [Clement Zheng's
