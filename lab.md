@@ -47,6 +47,9 @@ to create a vidoe?
 
 Anyways that's all for today! 💻✨
 
+P.S. I also came across [Clement Zheng's
+work](https://clementzheng.info/Teaching) on the Folk discord and it so very cool.
+
 ---
 
 # 2023-06-21 (published 2023-06-26)
