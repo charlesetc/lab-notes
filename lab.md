@@ -3,10 +3,43 @@
 
 Welcome! This is a place for me to publish less polished thoughts and findings as they come up, research-related or otherwise. See [#motivation](#motivation) for details.
 
+# 2023-06-29
+
+## Paper
+
+I read a great paper today! [How Bodies Matter: Five Themes for Interaction Design](./static/how-bodies-matter.pdf) It's very much in line with the work we've been doing at Folk, giving structure and words to the motivations for the infusion of the physical world with computation and vice versa.
+
+There's a section therein that I wanted to speak to: "Risk". The authors make the very insightful point that real world interfaces often have more risk associated with them: once you make a action there is no way to un-make that action. Virtual interfaces on the other hand often try to enable free history traversal. This risky commitment to action or lack thereof can profoundly impact the attitude of the actor:
+
+> Situations of higher risk cause people to feel more emotionally negative and, therefore, more focused, paying closer attention to detail, while situations of low risk allow people to feel more emotionally positive, relaxed, curious, and creative.
+
+It's valuable to think about what we give up when we move to a risk-free way of interacting with the world. There are probably circumstances where it's valuable to build and use tools that embrace this sort of focus-inducing risk.
+
+*However* I try to encourage and embrace emotionally positive, curious, and creative mindsets with the tools that I build. This is one of the reasons I love technology and coding in particular; it has the potential to induce these mindsets. Reading this paper, you might think that moving more to the physical world might necessitate taking on more risk in your actions and therefore encounter less coziness in more physically-centered tools. But I have found the opposite to be true:
+
+- For one, working with physical objects in the real world—particularly those which are well-designed and textured—has the potential to be a deeply safe and warm experience. Especially compared to the traditional harsh physicality of a computer. 
+- And secondly, the Folk system we're building actually has *more* undo-ability and state agnosticism than traditional digital tools, not less. The vast majority of the computation going on is a pure function of the physical state of the system you're working with. So while traditional user interfaces might not always make clear *how* to undo or the path of actions back-track along, in Folk it's just a matter of where you put items on the table. This actually amplifies the sense of safety that digital tools are capable of creating, even while bringing in more embodied interaction.
+
+## Writing idea
+
+I had an idea for a blog post recently. Instead of trying to formalize an argument for these sorts of physical computing interfaces I've been exploring, I could write a post arguing *against* this kind of theory. Basically, trying to outline a generally good-faith position that humans can be very good at symbolic processing (and thus traditional coding interfaces are superior), that the keyboard and multi-button mouse paradigm is a highly efficient interface far surpassing anything that can be done on a tabletop, etc.
+
+This would be an interesting position to try to elucidate— I'm sure I would develop a more nuanced outlook in the process— but I am also hoping that it would incite some amount of argument against it and in favor of physical computing. People love being contrarians (myself included for sure) and this might just be the way to get them on my side.
+
+
+## Book-binding
+
+I've taken to printing out papers recently on physical paper. I've been using newsprint - a somewhat silkier paper that actually seems to hold up better under stress. I print out 2 pages per sheet, double-sided, and then fold and staple them into pamphlets ready to be grabbed on my way out the door. This makes for great subway reading! Photo here:
+
+![](./static/paper.jpeg)
+
+I really can't recommend this highly enough. It's such a nicer physical reading experience. It's creatively satisfying to produce a history of artifacts of my research. I even printed out a book this way (from a pdf available online), saving $30 plus shipping charges. Letting ourselves a moment of romance, we can glimpse into a society of widespread indie book production! Basically printing is 3d printing for books? Who'd've thought.
+
+
 
 ---
 
-# 2023-06-29
+# 2023-06-28
 
 Today was a nice day of calm focus and research.
 
