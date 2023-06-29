@@ -5,7 +5,7 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 # 2023-06-29
 
-## Paper
+## Interaction Design Paper
 
 I read a great paper today! [How Bodies Matter: Five Themes for Interaction Design](./static/how-bodies-matter.pdf) It's very much in line with the work we've been doing at Folk, giving structure and words to the motivations for the infusion of the physical world with computation and vice versa.
 
