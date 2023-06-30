@@ -18,7 +18,7 @@ It's valuable to think about what we give up when we move to a risk-free way of 
 *However* I try to encourage and embrace emotionally positive, curious, and creative mindsets with the tools that I build. This is one of the reasons I love technology: it has the potential to induce these mindsets. Reading this paper, you might think that moving more to the physical world might necessitate taking on more risk in your actions and therefore encounter less coziness in more physically-centered tools. But I have found the opposite to be true:
 
 - the Folk system we're building actually has *more* undo-ability and state agnosticism than traditional digital tools, not less. The vast majority of the computation going on is a pure function of the physical state of the system you're working with. So while traditional user interfaces might not always make clear *how* to undo or the path of actions back-track along, in Folk it's just a matter of where you put items on the table. This actually amplifies the sense of safety that digital tools are capable of creating, even while bringing in more embodied interaction.
-- and working with physical objects in the real world—particularly those which are well-designed and textured—can be deeply safe and warm experience. Especially compared to the traditional harsh physicality of a computer. 
+- and working with physical objects in the real world—particularly those which are well-designed and textured—can be a very cozy experience. Especially compared to the traditional harsh physicality of a computer. 
 
 ## Writing idea
 
