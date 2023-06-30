@@ -22,10 +22,9 @@ It's valuable to think about what we give up when we move to a risk-free way of 
 
 ## Writing idea
 
-I had an idea for a blog post recently. Instead of trying to formalize an argument for these sorts of physical computing interfaces I've been exploring, I could write a post arguing *against* this kind of theory. Basically, trying to outline a generally good-faith position that humans can be very good at symbolic processing (and thus traditional coding interfaces are superior), that the keyboard and multi-button mouse paradigm is a highly efficient interface far surpassing anything that can be done on a tabletop, etc.
+I had an idea for a blog post recently. Instead of trying to formalize an argument for these sorts of physical computing interfaces I've been exploring, I could write a post arguing *against* this kind of theory. That is, trying to outline a generally good-faith position that humans are very good at symbolic processing and thus traditional coding interfaces are superior, that the keyboard and multi-button mouse paradigm is a highly efficient interface far surpassing anything that can be done on a tabletop, etc.
 
-This would be an interesting position to try to elucidate— I'm sure I would develop a more nuanced outlook in the process— but I am also hoping that it would incite some amount of argument against it and in favor of physical computing. People love being contrarians (myself included for sure) and this might just be the way to get them on my side.
-
+This would be an interesting position to try to elucidate— I'm sure I would develop a more nuanced outlook in the process— but I am also hoping that it would incite from the reader feirce critique against it and in favor of physical computing. People love being contrarians (myself included for sure) and this might just be the way to get them to join the cause.
 
 ## Book-binding
 
