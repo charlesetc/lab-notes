@@ -7,7 +7,7 @@ Welcome! This is a place for me to publish less polished thoughts and findings a
 
 ## Interaction Design Paper
 
-I read a great paper today! [How Bodies Matter: Five Themes for Interaction Design](./static/how-bodies-matter.pdf) It's very much in line with the work we've been doing at Folk, giving structure and words to the motivations for the infusion of the physical world with computation and vice versa.
+I read a great paper today! [How Bodies Matter: Five Themes for Interaction Design](./static/how-bodies-matter.pdf) It's very much in line with the work we've been doing at Folk, giving structure and words to the motivation for the infusion of the physical world with computation and vice versa.
 
 There's a section therein that I wanted to speak to: "Risk". The authors make the very insightful point that real world interfaces often have more risk associated with them: once you make a action there is no way to un-make that action. Virtual interfaces on the other hand often try to enable free history traversal. This risky commitment to action or lack thereof can profoundly impact the attitude of the actor:
 
