@@ -18,7 +18,8 @@ build:
 	@echo done
 
 make push: build
-	git commit -am 'update: make push'
+	git add .
+	git commit -m 'update: make push'
 	git push
 
 open:
