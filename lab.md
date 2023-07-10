@@ -5,6 +5,8 @@ Welcome! This is a place for me to publish less polished thoughts and findings
 as they come up, research-related or otherwise. See [#motivation](#motivation)
 for details.
 
+---
+
 # 2023-07-10
 
 I was on vacation last week. Just getting back in the flow today. Some things to
