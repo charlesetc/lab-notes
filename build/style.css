@@ -53,7 +53,7 @@ a.header-anchor {
   text-decoration: none;
 }
 
-img, video {
+img, video, vimeo-embed {
     max-width: 100%;
     max-height: 500px;
 }

@@ -1,7 +1,57 @@
 
 # Charles' lab notes
 
-Welcome! This is a place for me to publish less polished thoughts and findings as they come up, research-related or otherwise. See [#motivation](#motivation) for details.
+Welcome! This is a place for me to publish less polished thoughts and findings
+as they come up, research-related or otherwise. See [#motivation](#motivation)
+for details.
+
+# 2023-07-10
+
+I was on vacation last week. Just getting back in the flow today. Some things to
+share:
+
+## Electronics
+
+I've started programming microcontrollers lately! Just the basics, making lights
+blink and such. I made a game with four buttons and four lights here:
+
+<div class='vimeo-embed' style="padding:56.25% 0 0 0;position:relative;"><iframe
+src="https://player.vimeo.com/video/843984280?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+style="position:absolute;top:0;left:0;width:100%;height:100%;"
+title="IMG_2270"></iframe></div><script
+src="https://player.vimeo.com/api/player.js"></script>
+
+It's been really fun learning this stuff. The nicest thing to discover is that
+simple things aren't actaully hard at all! It always seemed like things
+involving hardware were going to be very low-level and difficult, but it's
+actually quite easy to plug a microcontroller into your computer and upload some
+code that blinks a light or listens to some buttons.
+
+You can see the code for the above game
+[here](https://gist.github.com/charlesetc/89fb69c93c505deed35bd77c0be384dd).
+
+Already it seems like there are so many possibilities of things to make in the
+real world. Very excited for what's to come.
+
+## Apricot
+
+I [published](https://inclouds.space/blog/apricot) [Apricot](https://apricot.sh)
+the other day! It was nice to get something out there and I was surprised by the
+positive reception. It is good to be reminded that people can care about and be
+impacted by the things that happen on two dimensional rectangular screens—not
+everything has to be in the real world 🤔 
+
+## Next?
+
+Lately I've been selecting for interestingness and, quite correlated, learning.
+Now it's started to feel like there are a lot of cool projects to work on, and
+at the same time, maybe I don't have to spend *all* of my time working on the
+most interesting? Doing so ends up segmenting my time a lot —the most
+interesting thing can change hour-to-hour. It might be time for another round of
+deep work on one or two project that I care about...
+
+---
 
 # 2023-06-29
 
