@@ -77,6 +77,69 @@ class="header-anchor">Charles’ lab notes</a></h1>
 findings as they come up, research-related or otherwise. See <a
 href="#motivation">#motivation</a> for details.</p>
 <hr />
+<h1 id="2023-07-27"><a href="#2023-07-27"
+class="header-anchor">2023-07-27</a></h1>
+<p>The last few weeks I’ve been learning more microcontroller things and
+playing with Lua some more!</p>
+<h2 id="watch"><a href="#watch" class="header-anchor">Watch</a></h2>
+<p>I’ve been playing with the <a
+href="https://www.lilygo.cc/products/t-display-s3-amoled">LilyGo
+AMOLED</a> controller: basically an esp32 with a really high quality
+screen attached.</p>
+<p>I have an idea for a watch that would combine the internal module of
+a <a
+href="https://www.casio.com/us/watches/casio/product.F-91W-1/">Casio
+F91W</a> with this LilyGo microcontroller to produce a hackable
+smartwatch that can always tell you the time. (The watch bit runs on its
+own coin cell battery that lasts 10 years.)</p>
+<p>Here’s the “prototype”:</p>
+<p><img src="./static/watch-07-27.jpeg" /></p>
+<h2 id="lua-tests--incremental-engine"><a
+href="#lua-tests--incremental-engine" class="header-anchor">Lua: Tests +
+Incremental Engine</a></h2>
+<p>Outside of hardware hacking, I’ve been writting some more Lua. I’m
+trying to re-create the claim/when system from Folk as a Lua DSL. Along
+the way, I’ve written an expect-test-style testing framework for Lua (<a
+href="https://github.com/charlesetc/starlight/blob/main/expect.lua">code</a>,
+<a
+href="https://github.com/charlesetc/starlight/blob/main/test/expect.lua">example</a>).</p>
+<p>I want to broadcast this (again): <strong>Expect tests are by far the
+best way to write unit tests.</strong></p>
+<p>I’ve written a bit about this <a
+href="https://inclouds.space/blog/expect-tests/">here</a> but I would
+actually recommend Jane Street’s <a
+href="https://blog.janestreet.com/the-joy-of-expect-tests/">recent
+article</a> on the subject (by the wonderful <a
+href="https://jsomers.net/">James Somers</a>!)</p>
+<p>Basically: When you write unit tests you have to write out the data
+you expect to exist after the test. When the desired output changes, you
+have to change the assertions made in the code. Expect tests automate
+this: instead of manually writing assertions, you simply print values
+within the test and the framework makes the assertion that whatever was
+printed is the same as the last accepted run. A test fails when it
+prints something differently, but it’s trivial to accept the new output
+as correct if the desired behaviour has changed. Just really
+convenient!</p>
+<p>So yeah now I can happily write tests in Lua!</p>
+<p>The actual claim/when framework needs a bit more work but it’s
+getting close to being a nice incremental evaluator. The idea is then to
+use it for the basis of a video game, just for fun.</p>
+<h2 id="weird-e-ink-solar-panel-computer"><a
+href="#weird-e-ink-solar-panel-computer" class="header-anchor">Weird
+E-ink Solar-panel Computer</a></h2>
+<p>I’ve also been doing some research (with a friend of mine) into
+creating a solar-powered computing device. The idea would be to turn on
+a microcontroller every hour for a few seconds, update a integrated
+e-ink screen, and then shut off. Ideally a tiny-enough amount of energy
+in the process to run the whole thing from the a super capacitor
+attached to an indoor solar panel. Conventional solar panels are made
+for direct outdoor sunlight exposure, but there is a growing class of
+products that are optimized for indoor light. <a
+href="https://www.epishine.com/">Epishine</a> has a product on the
+market that seems like it would do nicely. I’m waiting for some parts to
+be available, but hopefully within a month I’ll be able to order the
+supplies!</p>
+<hr />
 <h1 id="2023-07-10"><a href="#2023-07-10"
 class="header-anchor">2023-07-10</a></h1>
 <p>I was on vacation last week. Just getting back in the flow today.

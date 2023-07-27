@@ -6,6 +6,70 @@
     <description>Charles' quick-to-publish notes</description>
     <language>en-us</language>
       <item>
+        <title># 2023-07-27</title>
+        <description>The last few weeks I&#39;ve been learning more microcontroller things and
+playing with Lua some more!
+
+## Watch
+
+I&#39;ve been playing with the [LilyGo
+AMOLED](https://www.lilygo.cc/products/t-display-s3-amoled) controller:
+basically an esp32 with a really high quality screen attached.
+
+I have an idea for a watch that would combine the internal module of a [Casio
+F91W](https://www.casio.com/us/watches/casio/product.F-91W-1/) with this LilyGo
+microcontroller to produce a hackable smartwatch that can always tell you the
+time. (The watch bit runs on its own coin cell battery that lasts 10 years.)
+
+Here&#39;s the &quot;prototype&quot;:
+
+![](./static/watch-07-27.jpeg)
+
+## Lua: Tests + Incremental Engine
+
+Outside of hardware hacking, I&#39;ve been writting some more Lua. I&#39;m trying to
+re-create the claim/when system from Folk as a Lua DSL. Along the way, I&#39;ve
+written an expect-test-style testing framework for Lua
+([code](https://github.com/charlesetc/starlight/blob/main/expect.lua),
+[example](https://github.com/charlesetc/starlight/blob/main/test/expect.lua)).
+
+I want to broadcast this (again): **Expect tests are by far the best way to write unit tests.**
+
+I&#39;ve written a bit about this [here](https://inclouds.space/blog/expect-tests/)
+but I would actually recommend Jane Street&#39;s [recent
+article](https://blog.janestreet.com/the-joy-of-expect-tests/) on the subject (by the wonderful [James Somers](https://jsomers.net/)!)
+
+Basically: When you write unit tests you have to write out the data you expect
+to exist after the test. When the desired output changes, you have to change
+the assertions made in the code. Expect tests automate this: instead of
+manually writing assertions, you simply print values within the test and the
+framework makes the assertion that whatever was printed is the same as the last
+accepted run. A test fails when it prints something differently, but it&#39;s
+trivial to accept the new output as correct if the desired behaviour has
+changed. Just really convenient! 
+
+So yeah now I can happily write tests in Lua!
+
+The actual claim/when framework needs a bit more work but it&#39;s getting close to
+being a nice incremental evaluator. The idea is then to use it for the basis of
+a video game, just for fun.
+
+## Weird E-ink Solar-panel Computer 
+
+I&#39;ve also been doing some research (with a friend of mine) into creating a
+solar-powered computing device. The idea would be to turn on a microcontroller
+every hour for a few seconds, update a integrated e-ink screen, and then shut
+off. Ideally a tiny-enough amount of energy in the process to run the whole
+thing from the a super capacitor attached to an indoor solar panel.
+Conventional solar panels are made for direct outdoor sunlight exposure, but
+there is a growing class of products that are optimized for indoor light.
+[Epishine](https://www.epishine.com/) has a product on the market that seems
+like it would do nicely. I&#39;m waiting for some parts to be available, but
+hopefully within a month I&#39;ll be able to order the supplies!</description>
+        <guid isPermaLink="false">inclouds-space-20230727</guid>
+      </item>
+
+      <item>
         <title># 2023-07-10</title>
         <description>I was on vacation last week. Just getting back in the flow today. Some things to
 share:
