@@ -5,6 +5,55 @@ Welcome! This is a place for me to publish less polished thoughts and findings
 as they come up, research-related or otherwise. See [#motivation](#motivation)
 for details.
 
+--- 
+
+# 2023-08-14
+
+Things are going well! I've starting contracting part-time. It's really nice to
+have some money in so I can live life a bit more calmly while continuing to work
+on creative projects in my free time. Not every project has to be a money-making
+opportunity.
+
+So I've gotten super into watchmaking and clockmaking youtube videos. There's
+something about beautifully crafted gold and silver intricate bejeweled
+movements that just really absorbs my attention. Definitely an "ooh shiney!"
+kind of thing. It's amazing to me that these craftspeople are able to turn some
+hunks of metal, a couple rubies, and maybe a spring into a working timepiece. So
+I'll probably be thinking more about that going forward.
+
+I've been working on / thinking about a video game recently as well. In an
+utterly predictable turn of events, this has mostly amounted to lua tooling
+*around* the video game so far. I mentioned last time an expect test library for
+lua. I've since used this to build and test a folk-style claim/when system for
+lua. (The
+[tests](https://github.com/charlesetc/starlight/blob/main/test/rivulet.lua) are
+probably the easiest way to see what it tries to achieve.)
+
+I was surprised that when I went to go and use this claim/when system in a game,
+I wasn't very excited by it. Maybe it's because everything was early days, but
+it seemed like the logic I was expressing could have been written a lot more
+easily by just having some variables in scope and running functions against
+them, instead of orchestratic an incremental evaluation system. Part of the
+problem, maybe, is that the syntax for `when`-ing and `claim`-ing is
+substantially heavierweight in lua than in Folk for instance. I might try to
+iterate a bit on the interface to see if it can be easier to work with.
+
+Also the last few days I've gotten nerdsniped by
+[redbean.dev](https://redbean.dev). It's an incredible piece of engineering
+hackery that allows the same executable (and somehow also zip file?) to run on
+any x86 computer. It's a portable local execution environment with sqlite and
+lua built-in. I have a dream of turning it into a smalltalk-esque local-first
+user interface editor for the web. Maybe even as part of the game? Stay tuned.
+
+Lastly, I want to leave you with an imploring: Why o why can't there be chunky
+laptops on the market? Laptops are thin enough! I don't care about eeking the
+last few millimeters out of a potential lap computer, I would much rather save
+on price, battery life, or performance and embrace the chunky aesthetic.
+Panasonic makes a wonderfully [well-built](https://na.panasonic.com/us/computers-tablets-handhelds/computers/laptops/toughbook-40)
+that might be a bit extreme but certainly something of value. If only it wasn't
+$4000 of value!
+
+
 ---
 
 # 2023-07-27
