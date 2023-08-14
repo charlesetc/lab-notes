@@ -49,7 +49,7 @@ Lastly, I want to leave you with an imploring: Why o why can't there be chunky
 laptops on the market? Laptops are thin enough! I don't care about eeking the
 last few millimeters out of a potential lap computer, I would much rather save
 on price, battery life, or performance and embrace the chunky aesthetic.
-Panasonic makes a wonderfully [well-built](https://na.panasonic.com/us/computers-tablets-handhelds/computers/laptops/toughbook-40)
+Panasonic makes a wonderfully [well-built computer](https://na.panasonic.com/us/computers-tablets-handhelds/computers/laptops/toughbook-40)
 that might be a bit extreme but certainly something of value. If only it wasn't
 $4000 of value!
 
