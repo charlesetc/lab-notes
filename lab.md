@@ -5,6 +5,49 @@ Welcome! This is a place for me to publish less polished thoughts and findings
 as they come up, research-related or otherwise. See [#motivation](#motivation)
 for details.
 
+---
+
+# 2023-08-27
+
+Not a lot to update; I'm traveling in Germany and Austria for a few weeks.
+
+Before leaving, [Jinny](https://jinnycho.github.io/) and I made a clone of the
+Wavelength board game in Folk:
+
+<video controls muted>
+    <source src="./static/wavelength.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
+I've been writing [an expect test
+libray](https://github.com/charlesetc/expect-def) for Python. I've been writing
+python for my part-time work recently and am trying to get it to a place I'm
+happy with. I am beginning to understand why it's been so popular. I'm hoping
+to develop better editor integration, to make things feel a bit more dynamic
+and malleable. The expect tests are definitely a step in the right direction!
+We'll see how this goes.
+
+One very pleasantly surprising thing was the ease of releasing a pip package
+with [hatch](https://hatch.pypa.io/latest/). Things took a lot less time and
+frustration compared to with OCaml.
+
+I also went to a woodworking class yesterday!
+
+![](./static/woodworking.jpg)
+
+Tried to make some gears (the goal was to the number of times a handle had been
+rotated) but they were not as precise as necessary!
+
+And lastly I bought a mechanical watch at a flee market today:
+
+![](./static/mech-watch.jpeg)
+
+It runs but I'm not sure how to set it. I think I'll order some screwdrivers to try to dis-and-reassemble it. 
+
+![](./static/inside-watch.jpg)
+
+Tschüss!
+
 --- 
 
 # 2023-08-14
