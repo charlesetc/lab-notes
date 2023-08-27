@@ -23,9 +23,9 @@ I've been writing [an expect test
 libray](https://github.com/charlesetc/expect-def) for Python. I've been writing
 python for my part-time work recently and am trying to get it to a place I'm
 happy with. I am beginning to understand why it's been so popular. I'm hoping
-to develop better editor integration, to make things feel a bit more dynamic
-and malleable. The expect tests are definitely a step in the right direction!
-We'll see how this goes.
+to develop better editor integration, to make things feel a bit more dynamic,
+minimal, malleable. The expect tests feel like a step in the right direction!
+We'll see how it goes.
 
 One very pleasantly surprising thing was the ease of releasing a pip package
 with [hatch](https://hatch.pypa.io/latest/). Things took a lot less time and
