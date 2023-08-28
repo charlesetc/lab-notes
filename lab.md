@@ -37,7 +37,7 @@ I also went to a woodworking class yesterday!
 
 ![](./static/woodworking.jpg)
 
-Tried to make some gears (the goal was to the number of times a handle had been
+Tried to make some gears (the goal was to count the number of times a handle had been
 rotated) but they were not as precise as necessary!
 
 And lastly I bought a mechanical watch at a flee market today:
