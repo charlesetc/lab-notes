@@ -58,7 +58,7 @@ with a DSL.
 
 I'm dreaming of a database that can save my languages' types as first-class
 citizens. Types for whom I can define views to render them directly into the DOM.
-I fully expect this to happen at some point.
+Some day!
 
 Lastly— I'm also taking two four-day woodworking classes this month! Hopefully I'll
 have some fun photos to share!
