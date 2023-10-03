@@ -7,6 +7,65 @@ for details.
 
 ---
 
+# 2023-10-03
+
+Wanted to share a few things: 
+
+### 1. I'm made a prototype of a vector toolkit for [Folk](https://folk.computer):
+
+<div class='vimeo-embed' style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/869960054?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="folk vectors 001"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+I think it's pretty fun. There's a concept of an operator here: a program that
+does some computation on the programs to the left and right of it. You'll also
+notice that the vectors are hovering above the page rather than being placed in
+the middle, for instance. The main benefit of this is that you can fold the
+paper up into little handles. This gives finer control over things — especially
+in the constrained workspace I have.
+
+### 2. I'm thinking of building / trying to build a simple app to help cooridinate outdoor games, like frisbee, soccer, etc.
+
+I don't think there are enough group, in-person social events that are fun and
+don't involve alcohol. I've settled on casual outdoor games as a mechanism for
+improving this. My hypothesis is that there are lots of people who would be
+willing to participate in this kind of thing, but perhaps not want to commit to
+a weekly event or be ready to organize one. So I'm hoping to build a platform
+where you can go and see any upcoming games of all sorts and sign up for any
+that interest you.
+
+### 3. The state of web development remains grim
+
+While starting to build the above platform, I've been looking into web app
+development again. All too predictably, I've been trying to design and develop
+a better system.
+
+A lot of this sorry state of affairs has to do with the separation of state on
+the frontend, state on the backend, and state in the database. You shouldn't
+have to think about serializing your data from sql-types in a database, to your
+backend langauge's types, to some wire format for transmission, and then to
+javascript types on the frontend.
+
+The two existing solutions I've been exploring are [Remix](https://remix.run/)
+and Django + Htmx. I'm not super happy with either... 
+
+Remix is able to side-step data serialization complexity between the backend
+and frontend because the language is the same and JSON works quite well with
+javascript. That seems nice. The Django + Htmx gets by without having javascript to begin with.
+
+But both of these still have to worry about converting to-and-from databases.
+They build-in ORMs to help deal with this, but that doesn't actually remove the
+complexity: you are still modeling and converting to and from SQL types, just
+with a DSL.
+
+I'm dreaming of a database that can save my languages' types as first-class
+citizens. Types for whom I can define views to render them directly into the DOM.
+I fully expect this to happen at some point.
+
+Lastly— I'm also taking two four-day woodworking classes this month! Hopefully I'll
+have some fun photos to share!
+
+---
+
+
 # 2023-08-27
 
 Not a lot to update; I'm traveling in Germany and Austria for a few weeks.
