@@ -30,10 +30,10 @@ over the course of the for loop - or more for loops copying the whole image.
 Then I hook up the variables to sliders and see if anything interesting falls
 out of the space I've created. It's a very fun process!
 
-I'm [hosting](https://fascinating-sawine-811ba0.netlify.app/) the tool I'm using
-to make/find these images. It's fun to play around with the sliders and see what you
-can find!
-
+[Jinny](https://jinnycho.github.io/ideas) and I made the tool to find these
+images. Hosted [here!](https://fascinating-sawine-811ba0.netlify.app/)
+It's fun to play around with the sliders and see what you
+can find.
 
 ---
 
