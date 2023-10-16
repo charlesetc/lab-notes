@@ -5,13 +5,43 @@ Welcome! This is a place for me to publish less polished thoughts and findings
 as they come up, research-related or otherwise. See [#motivation](#motivation)
 for details.
 
+
+--- 
+
+# 2023-10-15
+
+I highly recommend playing games with pencil-and-paper! Homemade, entertaining, 
+with lovely artifacts produced along the way.
+
+![](./static/table-game.jpeg)
+
+Herein lies a form of computation perfectly devoid of computers. I love that we
+can explore the essence of computation by hand and with other people. 
+
+I've been doing some generative art recently as well:
+
+![](./static/hedgehog-art.jpeg)
+
+![](./static/hedgehog.svg)
+
+My strategy so far has been to start with something really simple, like a for
+loop drawing lines or circles. And then progressively add variables that change
+over the course of the for loop - or more for loops copying the whole image.
+Then I hook up the variables to sliders and see if anything interesting falls
+out of the space I've created. It's a very fun process!
+
+I'm [hosting](https://fascinating-sawine-811ba0.netlify.app/) the tool I'm using
+to make/find these images. It's fun to play around with the sliders and see what you
+can find!
+
+
 ---
 
 # 2023-10-03
 
 Wanted to share a few things: 
 
-### 1. I'm made a prototype of a vector toolkit for [Folk](https://folk.computer):
+### 1. I made a prototype of a vector toolkit for [Folk](https://folk.computer):
 
 <div class='vimeo-embed' style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/869960054?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="folk vectors 001"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 

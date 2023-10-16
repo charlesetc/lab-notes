@@ -6,10 +6,38 @@
     <description>Charles' quick-to-publish notes</description>
     <language>en-us</language>
       <item>
+        <title># 2023-10-15</title>
+        <description>I highly recommend playing games with pencil-and-paper! Homemade, entertaining, 
+with lovely artifacts produced along the way.
+
+![](./static/table-game.jpeg)
+
+Herein lies a form of computation perfectly devoid of computers. I love that we
+can explore the essence of computation by hand and with other people. 
+
+I&#39;ve been doing some generative art recently as well:
+
+![](./static/hedgehog-art.jpeg)
+
+![](./static/hedgehog.svg)
+
+My strategy so far has been to start with something really simple, like a for
+loop drawing lines or circles. And then progressively add variables that change
+over the course of the for loop - or more for loops copying the whole image.
+Then I hook up the variables to sliders and see if anything interesting falls
+out of the space I&#39;ve created. It&#39;s a very fun process!
+
+I&#39;m [hosting](https://fascinating-sawine-811ba0.netlify.app/) the tool I&#39;m using
+to make/find these images. It&#39;s fun to play around with the sliders and see what you
+can find!</description>
+        <guid isPermaLink="false">inclouds-space-20231015</guid>
+      </item>
+
+      <item>
         <title># 2023-10-03</title>
         <description>Wanted to share a few things: 
 
-### 1. I&#39;m made a prototype of a vector toolkit for [Folk](https://folk.computer):
+### 1. I made a prototype of a vector toolkit for [Folk](https://folk.computer):
 
 &lt;div class=&#39;vimeo-embed&#39; style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/869960054?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;folk vectors 001&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
