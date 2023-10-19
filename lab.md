@@ -7,6 +7,12 @@ for details.
 
 [RSS feed](./rss.xml)
 
+---
+
+# 2023-10-18
+
+Made an [interactive graphic](https://art-book-01.netlify.app/)! 
+
 --- 
 
 # 2023-10-15
